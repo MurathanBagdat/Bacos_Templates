@@ -7,8 +7,13 @@
     <trans_version/>
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>/</directory>
+    <directory>/home/09775/Bacos_Templates</directory>
     <parameters>
+      <parameter>
+        <name>emailler</name>
+        <default_value>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</default_value>
+        <description/>
+      </parameter>
       <parameter>
         <name>gunlukArtisCons</name>
         <default_value>1.05</default_value>
@@ -21,7 +26,7 @@
       </parameter>
       <parameter>
         <name>tag</name>
-        <default_value>47ZI600A.PV</default_value>
+        <default_value>63VI1401.PV</default_value>
         <description/>
       </parameter>
       <parameter>
@@ -442,340 +447,16 @@
     <dependencies>
     </dependencies>
     <partitionschemas>
-      <partitionschema>
-        <name>Partition</name>
-        <partition>
-          <id>part1</id>
-        </partition>
-        <partition>
-          <id>part2</id>
-        </partition>
-        <dynamic>Y</dynamic>
-        <partitions_per_slave>1</partitions_per_slave>
-      </partitionschema>
-      <partitionschema>
-        <name>PartitionSchema</name>
-        <dynamic>Y</dynamic>
-        <partitions_per_slave>1</partitions_per_slave>
-      </partitionschema>
-      <partitionschema>
-        <name>cluster</name>
-        <dynamic>N</dynamic>
-        <partitions_per_slave/>
-      </partitionschema>
-      <partitionschema>
-        <name>dynamic</name>
-        <dynamic>Y</dynamic>
-        <partitions_per_slave>1</partitions_per_slave>
-      </partitionschema>
     </partitionschemas>
     <slaveservers>
-      <slaveserver>
-        <name>9999</name>
-        <hostname>localhost</hostname>
-        <port>9999</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>ati-dev-ana01</name>
-        <hostname>ati-dev-ana01</hostname>
-        <port>9081</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>njain</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>ATI-PRD-ANA03</name>
-        <hostname>ATI-PRD-ANA03</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>admin</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>ATI-STG-ANA03</name>
-        <hostname>ATI-STG-ANA03</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>pentaho</username>
-        <password>Encrypted 2be98afc86aa7f2b4ae17ba71d69dff8b</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>CARTE</name>
-        <hostname>${CARTE_HOSTNAME}</hostname>
-        <port>${CARTE_PORT}</port>
-        <webAppName/>
-        <username>${CARTE_USER}</username>
-        <password>${CARTE_PWD}</password>
-        <proxy_hostname>${CARTE_PROXY_HOST}</proxy_hostname>
-        <proxy_port>${CARTE_PROXY_PORT}</proxy_port>
-        <non_proxy_hosts>${CARTE_NON_PROXY}</non_proxy_hosts>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>Cluster Master</name>
-        <hostname>${MASTER_HOST}</hostname>
-        <port>${MASTER_PORT}</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>DI Server</name>
-        <hostname>localhost</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>joe</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>DI Server 5.0</name>
-        <hostname>localhost</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>admin</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>di-server</name>
-        <hostname>localhost</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>joe</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>Fiji</name>
-        <hostname>localhost</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>admin</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>fred</name>
-        <hostname>localhost</hostname>
-        <port>8082</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>fred server</name>
-        <hostname>localhost</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di</webAppName>
-        <username>admin</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>local</name>
-        <hostname>127.0.0.1</hostname>
-        <port>9080</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>localhost</name>
-        <hostname>localhost</hostname>
-        <port>9080</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>Master</name>
-        <hostname>localhost</hostname>
-        <port>8081</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>remote</name>
-        <hostname>192.168.1.16</hostname>
-        <port>9080</port>
-        <webAppName>pentaho-di/kettle</webAppName>
-        <username>admin</username>
-        <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>Y</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>slave1</name>
-        <hostname>localhost</hostname>
-        <port>9081</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>slave2</name>
-        <hostname>localhost</hostname>
-        <port>9082</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>Slave3</name>
-        <hostname>localhost</hostname>
-        <port>8084</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>Slave4</name>
-        <hostname>localhost</hostname>
-        <port>8085</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
-      <slaveserver>
-        <name>Slave5</name>
-        <hostname>localhost</hostname>
-        <port>8086</port>
-        <webAppName/>
-        <username>cluster</username>
-        <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-        <proxy_hostname/>
-        <proxy_port/>
-        <non_proxy_hosts/>
-        <master>N</master>
-        <sslMode>N</sslMode>
-      </slaveserver>
     </slaveservers>
     <clusterschemas>
-      <clusterschema>
-        <name>ClusterSchema</name>
-        <base_port>40000</base_port>
-        <sockets_buffer_size>2000</sockets_buffer_size>
-        <sockets_flush_interval>5000</sockets_flush_interval>
-        <sockets_compressed>Y</sockets_compressed>
-        <dynamic>N</dynamic>
-        <slaveservers>
-          <name>Slave3</name>
-          <name>slave2</name>
-          <name>slave1</name>
-          <name>Master</name>
-        </slaveservers>
-      </clusterschema>
-      <clusterschema>
-        <name>ClusterSchema_dynamic</name>
-        <base_port>40000</base_port>
-        <sockets_buffer_size>2000</sockets_buffer_size>
-        <sockets_flush_interval>5000</sockets_flush_interval>
-        <sockets_compressed>Y</sockets_compressed>
-        <dynamic>Y</dynamic>
-        <slaveservers>
-          <name>Master</name>
-        </slaveservers>
-      </clusterschema>
     </clusterschemas>
     <created_user>-</created_user>
     <created_date>2020/04/09 11:25:08.295</created_date>
     <modified_user>09775</modified_user>
-    <modified_date>2020/04/09 12:12:55.119</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <modified_date>2020/04/09 16:15:45.686</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -855,7 +536,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <notepad>
       <note>Günlük yükseliş için bacos constant</note>
       <xloc>1600</xloc>
-      <yloc>608</yloc>
+      <yloc>640</yloc>
       <width>198</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
@@ -895,65 +576,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <drawshadow>Y</drawshadow>
     </notepad>
   </notepads>
-  <connection>
-    <name>pentaho_test_db</name>
-    <server>Tup01dbsrv05</server>
-    <type>MSSQLNATIVE</type>
-    <access>Native</access>
-    <database>pentahodb</database>
-    <port>1433</port>
-    <username>pentahouserowner</username>
-    <password>Encrypted 2be98afc86aa7f2e4e647a365edc9fbcb</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>MSSQLUseIntegratedSecurity</code>
-        <attribute>false</attribute>
-      </attribute>
-      <attribute>
-        <code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>1433</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
   <order>
     <hop>
       <from>Add constants 2</from>
@@ -963,7 +585,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Add constants 3</from>
       <to>Table output</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Add constants 3 4</from>
@@ -999,21 +621,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <from>Calculator 2</from>
       <to>Select values 8 2</to>
       <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields</from>
-      <to>Mail</to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 2</from>
-      <to>Mail 2</to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 2 2</from>
-      <to>Mail 2 2</to>
-      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Filter rows 4</from>
@@ -1081,11 +688,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>If field value is null 2</from>
-      <to>Merge join 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>If field value is null 3</from>
       <to>Join rows (cartesian product) 4</to>
       <enabled>Y</enabled>
@@ -1123,11 +725,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Merge join 3</from>
       <to>Select values 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Merge join 4</from>
-      <to>Formula 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -1341,11 +938,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Table input</from>
-      <to>If field value is null 2</to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
       <from>Table input 2</from>
       <to>Select values 5</to>
       <enabled>N</enabled>
@@ -1433,7 +1025,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Join rows (cartesian product) 6 2</from>
       <to>Table output 2</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Get variables 3</from>
@@ -1553,6 +1145,66 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Concat fields 3 2 2</from>
       <to>Add constants 3 4 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge join 4</from>
+      <to>Formula 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Table input</from>
+      <to>If field value is null 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>If field value is null 2</from>
+      <to>Merge join 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 5</from>
+      <to>Join rows (cartesian product) 7</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields</from>
+      <to>Join rows (cartesian product) 7</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 7</from>
+      <to>Mail</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 5 2</from>
+      <to>Join rows (cartesian product) 7 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 2 2</from>
+      <to>Join rows (cartesian product) 7 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 7 2</from>
+      <to>Mail 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 5 3</from>
+      <to>Join rows (cartesian product) 7 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 2</from>
+      <to>Join rows (cartesian product) 7 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 7 3</from>
+      <to>Mail 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -1973,18 +1625,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
-        <name>Destination</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
         <name>Sender Adress</name>
         <type>String</type>
         <format/>
@@ -2030,7 +1670,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2208</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2444,7 +2084,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2208</xloc>
-      <yloc>768</yloc>
+      <yloc>800</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2649,7 +2289,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>1856</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2792,7 +2432,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3104</xloc>
+      <xloc>3168</xloc>
       <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2913,7 +2553,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>1792</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2976,7 +2616,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3008</xloc>
+      <xloc>3072</xloc>
       <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3350,7 +2990,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3200</xloc>
+      <xloc>3264</xloc>
       <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3465,7 +3105,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>1696</xloc>
-      <yloc>576</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3549,39 +3189,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <GUI>
       <xloc>2592</xloc>
       <yloc>448</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>If field value is null 2</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <replaceAllByValue>0</replaceAllByValue>
-    <replaceAllMask/>
-    <selectFields>N</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2912</xloc>
-      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3722,7 +3329,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>1568</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3938,7 +3545,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>1696</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4009,7 +3616,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3200</xloc>
+      <xloc>3264</xloc>
       <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4075,7 +3682,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2816</xloc>
+      <xloc>2848</xloc>
       <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4141,7 +3748,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2176</xloc>
+      <xloc>2240</xloc>
       <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4208,7 +3815,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2336</xloc>
-      <yloc>768</yloc>
+      <yloc>800</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4479,7 +4086,7 @@ var requestXml = request.toXMLString();
     <fields>
       <field>
         <field_name>Value</field_name>
-        <key_value>47ZI600A.PV</key_value>
+        <key_value>${tag}</key_value>
         <target_name>Vibrasyon1</target_name>
         <target_type>Number</target_type>
         <target_format/>
@@ -5088,7 +4695,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2368</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5752,8 +5359,8 @@ Order By Tarih DESC
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3008</xloc>
-      <yloc>352</yloc>
+      <xloc>2912</xloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5922,7 +5529,7 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3296</xloc>
+      <xloc>3360</xloc>
       <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
@@ -6659,7 +6266,7 @@ Order By Tarih DESC</sql>
     </remotesteps>
     <GUI>
       <xloc>1952</xloc>
-      <yloc>736</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -6695,7 +6302,7 @@ Order By Tarih DESC</sql>
     </remotesteps>
     <GUI>
       <xloc>1952</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -6733,7 +6340,7 @@ Order By Tarih DESC</sql>
     </remotesteps>
     <GUI>
       <xloc>2048</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -6818,7 +6425,262 @@ Order By Tarih DESC</sql>
     </remotesteps>
     <GUI>
       <xloc>2112</xloc>
-      <yloc>640</yloc>
+      <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If field value is null 2</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue>0</replaceAllByValue>
+    <replaceAllMask/>
+    <selectFields>N</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2912</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 5</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Destination</name>
+        <variable>${emailler}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2784</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 7</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2784</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 5 2</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Destination</name>
+        <variable>${emailler}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2272</xloc>
+      <yloc>896</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 7 2</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2272</xloc>
+      <yloc>800</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 5 3</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Destination</name>
+        <variable>${emailler}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2144</xloc>
+      <yloc>608</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 7 3</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2144</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
