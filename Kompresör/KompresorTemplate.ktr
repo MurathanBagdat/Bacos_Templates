@@ -4977,8 +4977,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2144</xloc>
-      <yloc>320</yloc>
+      <xloc>2272</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5768,11 +5768,12 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <sql>SELECT
   Tarih
-, VardiyaAlarm3
-FROM "BACOS_47K-1_ZI600A"
+, VardiyaAlarm
+FROM "BACOS_MASTER"
+WHERE Tag = '${tag}'
 Order By Tarih DESC</sql>
     <limit>0</limit>
     <lookup/>
