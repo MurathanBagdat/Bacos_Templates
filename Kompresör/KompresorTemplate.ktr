@@ -7,7 +7,7 @@
     <trans_version/>
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>/home/09775/Bacos_Templates</directory>
+    <directory>/</directory>
     <parameters>
       <parameter>
         <name>emailler</name>
@@ -456,7 +456,7 @@
     <created_date>2020/04/09 11:25:08.295</created_date>
     <modified_user>09775</modified_user>
     <modified_date>2020/04/09 16:15:45.686</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -472,8 +472,8 @@ TARGET TABLE: BACOS_47K-1_ZI601A
 Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
 
 </note>
-      <xloc>2784</xloc>
-      <yloc>736</yloc>
+      <xloc>3136</xloc>
+      <yloc>928</yloc>
       <width>596</width>
       <heigth>230</heigth>
       <fontname>Segoe UI</fontname>
@@ -493,10 +493,10 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </notepad>
     <notepad>
       <note>Vardiya Alarmı için Bacos Constant</note>
-      <xloc>1440</xloc>
-      <yloc>192</yloc>
-      <width>194</width>
-      <heigth>26</heigth>
+      <xloc>1664</xloc>
+      <yloc>288</yloc>
+      <width>240</width>
+      <heigth>30</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -514,10 +514,10 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </notepad>
     <notepad>
       <note>Haftalık alaram için Bacos Constant</note>
-      <xloc>1600</xloc>
-      <yloc>352</yloc>
-      <width>198</width>
-      <heigth>26</heigth>
+      <xloc>1824</xloc>
+      <yloc>448</yloc>
+      <width>245</width>
+      <heigth>30</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -535,9 +535,30 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </notepad>
     <notepad>
       <note>Günlük yükseliş için bacos constant</note>
-      <xloc>1600</xloc>
-      <yloc>640</yloc>
-      <width>198</width>
+      <xloc>1824</xloc>
+      <yloc>864</yloc>
+      <width>240</width>
+      <heigth>30</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Mail öldürücü</note>
+      <xloc>2336</xloc>
+      <yloc>160</yloc>
+      <width>84</width>
       <heigth>26</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -555,15 +576,57 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>Mail öldürücü denemeleri</note>
-      <xloc>2112</xloc>
-      <yloc>64</yloc>
-      <width>146</width>
-      <heigth>26</heigth>
+      <note>3 Haftalık Alarm</note>
+      <xloc>2432</xloc>
+      <yloc>928</yloc>
+      <width>330</width>
+      <heigth>64</heigth>
       <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
+      <fontsize>30</fontsize>
+      <fontbold>Y</fontbold>
+      <fontitalic>Y</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>3 Vardiya Alarmı</note>
+      <xloc>2784</xloc>
+      <yloc>192</yloc>
+      <width>335</width>
+      <heigth>64</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>30</fontsize>
+      <fontbold>Y</fontbold>
+      <fontitalic>Y</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Günlük Artış Alarmı</note>
+      <xloc>2720</xloc>
+      <yloc>1472</yloc>
+      <width>387</width>
+      <heigth>64</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>30</fontsize>
+      <fontbold>Y</fontbold>
+      <fontitalic>Y</fontitalic>
       <fontcolorred>0</fontcolorred>
       <fontcolorgreen>0</fontcolorgreen>
       <fontcolorblue>0</fontcolorblue>
@@ -577,6 +640,11 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </notepad>
   </notepads>
   <order>
+    <hop>
+      <from>Add constants</from>
+      <to>Concat fields 3</to>
+      <enabled>Y</enabled>
+    </hop>
     <hop>
       <from>Add constants 2</from>
       <to>Calculator 2</to>
@@ -599,7 +667,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </hop>
     <hop>
       <from>Add constants 3 4 2</from>
-      <to>Concat fields 2</to>
+      <to>Join rows (cartesian product) 9</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -609,7 +677,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </hop>
     <hop>
       <from>Add constants 3 4 2 2</from>
-      <to>Concat fields 2 2</to>
+      <to>Join rows (cartesian product) 8</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -618,8 +686,68 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Add constants 4</from>
+      <to>Concat fields 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add constants 4 2</from>
+      <to>Concat fields 3 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Calculator 2</from>
       <to>Select values 8 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields</from>
+      <to>Join rows (cartesian product) 7</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 2</from>
+      <to>Join rows (cartesian product) 7 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 2 2</from>
+      <to>Join rows (cartesian product) 7 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 3</from>
+      <to>Add constants 3 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 3 2</from>
+      <to>Add constants 3 4 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Concat fields 3 2 2</from>
+      <to>Add constants 3 4 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Create Parameters 2 2</from>
+      <to>Join rows (cartesian product) 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows</from>
+      <to>Join rows (cartesian product) 5 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows 2</from>
+      <to>Join rows (cartesian product) 5 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows 3</from>
+      <to>Join rows (cartesian product) 5 3 2 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -633,8 +761,23 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Filter rows 5</from>
+      <to>Join rows (cartesian product) 6 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Filter rows 6</from>
       <to>Concat fields</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows 6 2</from>
+      <to>Concat fields 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows 6 3</from>
+      <to>Concat fields 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -678,6 +821,66 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Get variables</from>
+      <to>Join rows (cartesian product) 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 2</from>
+      <to>Join rows (cartesian product) 6</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 2 2</from>
+      <to>Join rows (cartesian product) 6 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 3</from>
+      <to>Join rows (cartesian product) 5 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 3 2</from>
+      <to>Join rows (cartesian product) 5 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 3 2 2</from>
+      <to>Join rows (cartesian product) 5 2 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 4</from>
+      <to>Join rows (cartesian product) 5 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 4 2</from>
+      <to>Join rows (cartesian product) 5 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 4 2 2</from>
+      <to>Join rows (cartesian product) 5 3 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 5</from>
+      <to>Join rows (cartesian product) 7</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 5 2</from>
+      <to>Join rows (cartesian product) 7 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get variables 5 3</from>
+      <to>Join rows (cartesian product) 7 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>HTTP post 2 2 2</from>
       <to>Get data from XML 2 2 2</to>
       <enabled>Y</enabled>
@@ -688,13 +891,53 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>If field value is null 2</from>
+      <to>Merge join 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>If field value is null 3</from>
       <to>Join rows (cartesian product) 4</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>If field value is null 3 2</from>
+      <to>Join rows (cartesian product) 8</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>If field value is null 3 3</from>
+      <to>Join rows (cartesian product) 9</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product)</from>
+      <to>Join rows (cartesian product) 5 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 2</from>
+      <to>Join rows (cartesian product) 5 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 2 2</from>
+      <to>Join rows (cartesian product) 5 2 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Join rows (cartesian product) 3</from>
       <to>Filter rows 6</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 3 2</from>
+      <to>Filter rows 6 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 3 3</from>
+      <to>Filter rows 6 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -713,6 +956,96 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Join rows (cartesian product) 5</from>
+      <to>Get system info 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 5 2</from>
+      <to>Formula 4 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 5 2 2</from>
+      <to>Formula 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 5 2 2 2</from>
+      <to>Formula</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 5 3</from>
+      <to>Add constants</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 5 3 2</from>
+      <to>Add constants 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 5 3 2 2</from>
+      <to>Add constants 4 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 6</from>
+      <to>Add constants 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 6 2</from>
+      <to>Table output 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 7</from>
+      <to>Mail</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 7 2</from>
+      <to>Mail 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 7 3</from>
+      <to>Mail 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 8</from>
+      <to>Sample rows 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 8</from>
+      <to>Sample rows 2 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 8</from>
+      <to>Sample rows 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 9</from>
+      <to>Sample rows 2 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 9</from>
+      <to>Sample rows 2 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Join rows (cartesian product) 9</from>
+      <to>Sample rows 2 3 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Merge join</from>
       <to>Merge join 2</to>
       <enabled>Y</enabled>
@@ -725,6 +1058,11 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Merge join 3</from>
       <to>Select values 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge join 4</from>
+      <to>Formula 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -788,8 +1126,38 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Sample rows 2 2</from>
+      <to>Select values 6 3 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sample rows 2 2 2</from>
+      <to>Select values 6 3 2 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sample rows 2 3</from>
+      <to>Select values 6 3 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sample rows 2 3 2</from>
+      <to>Select values 6 3 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sample rows 2 3 2 2</from>
+      <to>Select values 6 3 3 2 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Sample rows 3</from>
       <to>Select values 6 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sample rows 4</from>
+      <to>Select values 6 3 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -873,6 +1241,11 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Select values 5 2</from>
+      <to>If field value is null 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Select values 6</from>
       <to>Join rows (cartesian product) 3</to>
       <enabled>Y</enabled>
@@ -885,6 +1258,41 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Select values 6 3</from>
       <to>Join rows (cartesian product) 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 2</from>
+      <to>Join rows (cartesian product) 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 2 2</from>
+      <to>Join rows (cartesian product) 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 2 2 2</from>
+      <to>Join rows (cartesian product) 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 3</from>
+      <to>Join rows (cartesian product) 3 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 3 2</from>
+      <to>Join rows (cartesian product) 3 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 3 2 2</from>
+      <to>Join rows (cartesian product) 3 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 7</from>
+      <to>If field value is null 3 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -938,9 +1346,24 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Table input 2</from>
+      <from>Table input</from>
+      <to>If field value is null 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Table input 3</from>
+      <to>Select values 5 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Table input 3 2</from>
       <to>Select values 5</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Table input 3 2 2</from>
+      <to>Select values 7</to>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Univariate statistics</from>
@@ -983,231 +1406,49 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Create Parameters 2 2</from>
-      <to>Join rows (cartesian product) 5</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5</from>
-      <to>Get system info 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables</from>
-      <to>Join rows (cartesian product) 5</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>alarm varsa</from>
       <to>Join rows (cartesian product) 6</to>
       <enabled>Y</enabled>
     </hop>
-    <hop>
-      <from>Join rows (cartesian product) 6</from>
-      <to>Add constants 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 2</from>
-      <to>Join rows (cartesian product) 6</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 2 2</from>
-      <to>Join rows (cartesian product) 6 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows 5</from>
-      <to>Join rows (cartesian product) 6 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 6 2</from>
-      <to>Table output 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 3</from>
-      <to>Join rows (cartesian product) 5 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product)</from>
-      <to>Join rows (cartesian product) 5 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5 2</from>
-      <to>Formula 4 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 3 2</from>
-      <to>Join rows (cartesian product) 5 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 2</from>
-      <to>Join rows (cartesian product) 5 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5 2 2</from>
-      <to>Formula 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 3 2 2</from>
-      <to>Join rows (cartesian product) 5 2 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 2 2</from>
-      <to>Join rows (cartesian product) 5 2 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5 2 2 2</from>
-      <to>Formula</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 4</from>
-      <to>Join rows (cartesian product) 5 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows</from>
-      <to>Join rows (cartesian product) 5 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5 3</from>
-      <to>Add constants</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add constants</from>
-      <to>Concat fields 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 3</from>
-      <to>Add constants 3 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 4 2</from>
-      <to>Join rows (cartesian product) 5 3 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5 3 2</from>
-      <to>Add constants 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add constants 4</from>
-      <to>Concat fields 3 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows 2</from>
-      <to>Join rows (cartesian product) 5 3 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 3 2</from>
-      <to>Add constants 3 4 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 4 2 2</from>
-      <to>Join rows (cartesian product) 5 3 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 5 3 2 2</from>
-      <to>Add constants 4 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add constants 4 2</from>
-      <to>Concat fields 3 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows 3</from>
-      <to>Join rows (cartesian product) 5 3 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 3 2 2</from>
-      <to>Add constants 3 4 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Merge join 4</from>
-      <to>Formula 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Table input</from>
-      <to>If field value is null 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>If field value is null 2</from>
-      <to>Merge join 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 5</from>
-      <to>Join rows (cartesian product) 7</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields</from>
-      <to>Join rows (cartesian product) 7</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 7</from>
-      <to>Mail</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 5 2</from>
-      <to>Join rows (cartesian product) 7 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 2 2</from>
-      <to>Join rows (cartesian product) 7 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 7 2</from>
-      <to>Mail 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Get variables 5 3</from>
-      <to>Join rows (cartesian product) 7 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 2</from>
-      <to>Join rows (cartesian product) 7 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Join rows (cartesian product) 7 3</from>
-      <to>Mail 2</to>
-      <enabled>Y</enabled>
-    </hop>
   </order>
+  <step>
+    <name>Add constants</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>Üç Vardiyadır Artış Trendinde</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2176</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Add constants 2</name>
     <type>Constant</type>
@@ -1241,8 +1482,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>320</xloc>
-      <yloc>416</yloc>
+      <xloc>544</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1279,8 +1520,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2880</xloc>
-      <yloc>544</yloc>
+      <xloc>3328</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1413,8 +1654,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2080</xloc>
-      <yloc>256</yloc>
+      <xloc>2304</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1547,8 +1788,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2080</xloc>
-      <yloc>448</yloc>
+      <xloc>2304</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1669,8 +1910,84 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2208</xloc>
+      <xloc>2432</xloc>
+      <yloc>1184</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Add constants 4</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>Üç Haftadır Artış Trendinde</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2144</xloc>
       <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Add constants 4 2</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>Bugün Geçen Haftaya Göre Yüksek</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2272</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1708,8 +2025,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>416</xloc>
-      <yloc>416</yloc>
+      <xloc>640</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1841,8 +2158,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2720</xloc>
-      <yloc>256</yloc>
+      <xloc>3296</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1974,8 +2291,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2080</xloc>
-      <yloc>544</yloc>
+      <xloc>2592</xloc>
+      <yloc>832</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2083,8 +2400,263 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2208</xloc>
-      <yloc>800</yloc>
+      <xloc>2912</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Concat fields 3</name>
+    <type>ConcatFields</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator> </separator>
+    <enclosure/>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding/>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>file</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>txt</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>subject1</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>subject2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <ConcatFields>
+      <targetFieldName>Subject</targetFieldName>
+      <targetFieldLength>0</targetFieldLength>
+      <removeSelectedFields>N</removeSelectedFields>
+    </ConcatFields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2240</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Concat fields 3 2</name>
+    <type>ConcatFields</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator> </separator>
+    <enclosure/>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding/>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>file</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>txt</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>subject1</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>subject2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <ConcatFields>
+      <targetFieldName>Subject</targetFieldName>
+      <targetFieldLength>0</targetFieldLength>
+      <removeSelectedFields>N</removeSelectedFields>
+    </ConcatFields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2240</xloc>
+      <yloc>544</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Concat fields 3 2 2</name>
+    <type>ConcatFields</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator> </separator>
+    <enclosure/>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding/>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>file</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>txt</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>subject1</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>subject2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <ConcatFields>
+      <targetFieldName>Subject</targetFieldName>
+      <targetFieldLength>0</targetFieldLength>
+      <removeSelectedFields>N</removeSelectedFields>
+    </ConcatFields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2336</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2162,8 +2734,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>32</xloc>
-      <yloc>416</yloc>
+      <xloc>256</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2208,8 +2780,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1792</xloc>
-      <yloc>256</yloc>
+      <xloc>2016</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2254,8 +2826,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1760</xloc>
-      <yloc>448</yloc>
+      <xloc>1984</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2288,8 +2860,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1856</xloc>
-      <yloc>672</yloc>
+      <xloc>2080</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2368,8 +2940,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2688</xloc>
-      <yloc>448</yloc>
+      <xloc>3136</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2432,8 +3004,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3168</xloc>
-      <yloc>448</yloc>
+      <xloc>3616</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2456,7 +3028,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <conditions>
           <condition>
             <negated>N</negated>
-            <leftvalue>VardiyaAlarm3 Üçüncü Değer</leftvalue>
+            <leftvalue>VardiyaAlarm İlk Değer</leftvalue>
             <function>=</function>
             <rightvalue/>
             <value>
@@ -2472,7 +3044,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
           <condition>
             <negated>N</negated>
             <operator>AND</operator>
-            <leftvalue>VardiyaAlarm3 İlk Değer</leftvalue>
+            <leftvalue>VardiyaAlarm İkinci Değer</leftvalue>
             <function>=</function>
             <rightvalue/>
             <value>
@@ -2488,7 +3060,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
           <condition>
             <negated>N</negated>
             <operator>AND</operator>
-            <leftvalue>VardiyaAlarm3 İkinci Değer</leftvalue>
+            <leftvalue>VardiyaAlarm Üçüncü Değer</leftvalue>
             <function>=</function>
             <rightvalue/>
             <value>
@@ -2512,8 +3084,168 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2624</xloc>
-      <yloc>256</yloc>
+      <xloc>3168</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows 6 2</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Concat fields 2 2</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>Y</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>MeanAlarmİlk</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>1.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>####0.0#########;-####0.0#########</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>MeanAlarmİkinci</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>1.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>####0.0#########;-####0.0#########</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>MeanAlarmÜçüncü</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>1.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>####0.0#########;-####0.0#########</mask>
+            </value>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2848</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows 6 3</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Concat fields 2</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>Y</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>HaftaAlarmİlk</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>1.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>####0.0#########;-####0.0#########</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>HaftaAlarmİkinci</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>1.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>####0.0#########;-####0.0#########</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>HaftaAlarmÜçüncü</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>1.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>####0.0#########;-####0.0#########</mask>
+            </value>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2592</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2552,8 +3284,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1792</xloc>
-      <yloc>672</yloc>
+      <xloc>2016</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2584,8 +3316,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2784</xloc>
-      <yloc>448</yloc>
+      <xloc>3232</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2616,8 +3348,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3072</xloc>
-      <yloc>448</yloc>
+      <xloc>3520</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2656,8 +3388,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1696</xloc>
-      <yloc>448</yloc>
+      <xloc>1920</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2696,8 +3428,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1728</xloc>
-      <yloc>256</yloc>
+      <xloc>1952</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2816,8 +3548,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>928</xloc>
-      <yloc>416</yloc>
+      <xloc>1152</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2846,8 +3578,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>224</xloc>
-      <yloc>416</yloc>
+      <xloc>448</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2876,8 +3608,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2432</xloc>
-      <yloc>544</yloc>
+      <xloc>2880</xloc>
+      <yloc>640</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2914,8 +3646,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>128</xloc>
-      <yloc>512</yloc>
+      <xloc>352</xloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2952,8 +3684,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2784</xloc>
-      <yloc>640</yloc>
+      <xloc>3232</xloc>
+      <yloc>864</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2990,8 +3722,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3264</xloc>
-      <yloc>544</yloc>
+      <xloc>3712</xloc>
+      <yloc>640</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3028,8 +3760,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1664</xloc>
-      <yloc>192</yloc>
+      <xloc>1888</xloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3066,8 +3798,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1632</xloc>
-      <yloc>384</yloc>
+      <xloc>1856</xloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3104,8 +3836,236 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1696</xloc>
+      <xloc>1920</xloc>
+      <yloc>1280</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 4</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+        <variable>${tag}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2112</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 4 2</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+        <variable>${tag}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2080</xloc>
       <yloc>768</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 4 2 2</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+        <variable>${tag}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2176</xloc>
+      <yloc>1280</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 5</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Destination</name>
+        <variable>${emailler}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3360</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 5 2</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Destination</name>
+        <variable>${emailler}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3008</xloc>
+      <yloc>1408</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get variables 5 3</name>
+    <type>GetVariable</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Destination</name>
+        <variable>${emailler}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2656</xloc>
+      <yloc>896</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3154,8 +4114,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>416</yloc>
+      <xloc>1088</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3187,13 +4147,13 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2592</xloc>
-      <yloc>448</yloc>
+      <xloc>3040</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>If field value is null 3</name>
+    <name>If field value is null 2</name>
     <type>IfNull</type>
     <description/>
     <distribute>Y</distribute>
@@ -3203,7 +4163,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <replaceAllByValue/>
+    <replaceAllByValue>0</replaceAllByValue>
     <replaceAllMask/>
     <selectFields>N</selectFields>
     <selectValuesType>N</selectValuesType>
@@ -3220,8 +4180,107 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2176</xloc>
-      <yloc>160</yloc>
+      <xloc>3360</xloc>
+      <yloc>480</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If field value is null 3</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue>0</replaceAllByValue>
+    <replaceAllMask/>
+    <selectFields>N</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2400</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If field value is null 3 2</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue>0</replaceAllByValue>
+    <replaceAllMask/>
+    <selectFields>N</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2432</xloc>
+      <yloc>1408</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If field value is null 3 3</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue>0</replaceAllByValue>
+    <replaceAllMask/>
+    <selectFields>N</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2304</xloc>
+      <yloc>800</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3256,8 +4315,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1568</xloc>
-      <yloc>256</yloc>
+      <xloc>1792</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3292,8 +4351,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1568</xloc>
-      <yloc>448</yloc>
+      <xloc>1792</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3328,8 +4387,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1568</xloc>
-      <yloc>672</yloc>
+      <xloc>1792</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3364,8 +4423,80 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
+      <xloc>3072</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 3 2</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2752</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 3 3</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
       <xloc>2528</xloc>
-      <yloc>256</yloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3400,8 +4531,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2176</xloc>
-      <yloc>256</yloc>
+      <xloc>2400</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3436,8 +4567,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>128</xloc>
-      <yloc>416</yloc>
+      <xloc>352</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3472,8 +4603,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1664</xloc>
-      <yloc>256</yloc>
+      <xloc>1888</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3508,8 +4639,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1632</xloc>
-      <yloc>448</yloc>
+      <xloc>1856</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3544,8 +4675,116 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1696</xloc>
+      <xloc>1920</xloc>
+      <yloc>1184</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 5 3</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2112</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 5 3 2</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2080</xloc>
       <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 5 3 2 2</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2176</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3580,8 +4819,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2784</xloc>
-      <yloc>544</yloc>
+      <xloc>3232</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3616,8 +4855,188 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3264</xloc>
-      <yloc>448</yloc>
+      <xloc>3712</xloc>
+      <yloc>544</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 7</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3360</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 7 2</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3008</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 7 3</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2656</xloc>
+      <yloc>832</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 8</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2432</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Join rows (cartesian product) 9</name>
+    <type>JoinRows</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <cache_size>500</cache_size>
+    <main/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue/>
+        <function>=</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2304</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3682,8 +5101,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2848</xloc>
-      <yloc>256</yloc>
+      <xloc>3488</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3748,8 +5167,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2240</xloc>
-      <yloc>544</yloc>
+      <xloc>2720</xloc>
+      <yloc>832</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3814,8 +5233,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2336</xloc>
-      <yloc>800</yloc>
+      <xloc>3072</xloc>
+      <yloc>1312</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3845,8 +5264,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2272</xloc>
-      <yloc>448</yloc>
+      <xloc>2496</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3876,8 +5295,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2368</xloc>
-      <yloc>448</yloc>
+      <xloc>2784</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3907,8 +5326,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2432</xloc>
-      <yloc>448</yloc>
+      <xloc>2880</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3938,8 +5357,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2912</xloc>
-      <yloc>448</yloc>
+      <xloc>3360</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4011,8 +5430,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>416</yloc>
+      <xloc>1024</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4061,8 +5480,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>640</xloc>
-      <yloc>416</yloc>
+      <xloc>864</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4107,8 +5526,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1152</xloc>
-      <yloc>416</yloc>
+      <xloc>1376</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4133,8 +5552,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2336</xloc>
-      <yloc>256</yloc>
+      <xloc>2880</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4159,8 +5578,138 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2336</xloc>
-      <yloc>192</yloc>
+      <xloc>2880</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sample rows 2 2</name>
+    <type>SampleRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <linesrange>2</linesrange>
+    <linenumfield/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2528</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sample rows 2 2 2</name>
+    <type>SampleRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <linesrange>3</linesrange>
+    <linenumfield/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2528</xloc>
+      <yloc>1376</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sample rows 2 3</name>
+    <type>SampleRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <linesrange>1</linesrange>
+    <linenumfield/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2400</xloc>
+      <yloc>608</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sample rows 2 3 2</name>
+    <type>SampleRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <linesrange>2</linesrange>
+    <linenumfield/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2400</xloc>
+      <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sample rows 2 3 2 2</name>
+    <type>SampleRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <linesrange>3</linesrange>
+    <linenumfield/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2400</xloc>
+      <yloc>736</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4185,8 +5734,34 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2336</xloc>
-      <yloc>320</yloc>
+      <xloc>2880</xloc>
+      <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sample rows 4</name>
+    <type>SampleRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <linesrange>1</linesrange>
+    <linenumfield/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2528</xloc>
+      <yloc>1248</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4216,8 +5791,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>256</yloc>
+      <xloc>1696</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4247,8 +5822,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>256</yloc>
+      <xloc>1696</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4278,8 +5853,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>320</yloc>
+      <xloc>1696</xloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4360,8 +5935,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>576</xloc>
-      <yloc>416</yloc>
+      <xloc>800</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4391,8 +5966,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>384</yloc>
+      <xloc>1696</xloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4422,8 +5997,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>448</yloc>
+      <xloc>1696</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4453,8 +6028,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>544</yloc>
+      <xloc>1696</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4484,8 +6059,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>608</yloc>
+      <xloc>1696</xloc>
+      <yloc>1120</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4515,8 +6090,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1472</xloc>
-      <yloc>704</yloc>
+      <xloc>1696</xloc>
+      <yloc>1216</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4554,8 +6129,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>992</xloc>
-      <yloc>416</yloc>
+      <xloc>1216</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4584,8 +6159,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2272</xloc>
-      <yloc>352</yloc>
+      <xloc>2496</xloc>
+      <yloc>480</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4614,8 +6189,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2176</xloc>
-      <yloc>448</yloc>
+      <xloc>2400</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4664,8 +6239,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>416</yloc>
+      <xloc>928</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4694,8 +6269,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2368</xloc>
-      <yloc>672</yloc>
+      <xloc>2784</xloc>
+      <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4734,8 +6309,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2496</xloc>
-      <yloc>448</yloc>
+      <xloc>2944</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4756,7 +6331,8 @@ var requestXml = request.toXMLString();
         <rename>Date</rename>
       </field>
       <field>
-        <name>VardiyaAlarm3</name>
+        <name>VardiyaAlarm</name>
+        <rename>VardiyaAlarmold</rename>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -4768,8 +6344,43 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2176</xloc>
-      <yloc>96</yloc>
+      <xloc>2400</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 5 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Tarih</name>
+        <rename>Date</rename>
+      </field>
+      <field>
+        <name>MeanAlarm</name>
+        <rename>MeanAlarmold</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2432</xloc>
+      <yloc>1536</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4837,8 +6448,8 @@ var requestXml = request.toXMLString();
         <name>Date</name>
       </field>
       <field>
-        <name>VardiyaAlarm3</name>
-        <rename>VardiyaAlarm3 İlk Değer</rename>
+        <name>VardiyaAlarmold</name>
+        <rename>VardiyaAlarm İlk Değer</rename>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -4850,8 +6461,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2432</xloc>
-      <yloc>256</yloc>
+      <xloc>2976</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4919,8 +6530,8 @@ var requestXml = request.toXMLString();
         <name>Date</name>
       </field>
       <field>
-        <name>VardiyaAlarm3</name>
-        <rename>VardiyaAlarm3 Üçüncü Değer</rename>
+        <name>VardiyaAlarmold</name>
+        <rename>VardiyaAlarm Üçüncü Değer</rename>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -4932,8 +6543,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2432</xloc>
-      <yloc>320</yloc>
+      <xloc>2976</xloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5001,8 +6612,8 @@ var requestXml = request.toXMLString();
         <name>Date</name>
       </field>
       <field>
-        <name>VardiyaAlarm3</name>
-        <rename>VardiyaAlarm3 İkinci Değer</rename>
+        <name>VardiyaAlarmold</name>
+        <rename>VardiyaAlarm İkinci Değer</rename>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -5014,8 +6625,552 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2432</xloc>
-      <yloc>192</yloc>
+      <xloc>2976</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 6 3 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+      </field>
+      <field>
+        <name>BACOS Constant</name>
+      </field>
+      <field>
+        <name>Vibrasyon_1gun</name>
+      </field>
+      <field>
+        <name>Vibrasyon_1gun_1hafta</name>
+      </field>
+      <field>
+        <name>Fark</name>
+      </field>
+      <field>
+        <name>HL</name>
+      </field>
+      <field>
+        <name>subject2</name>
+      </field>
+      <field>
+        <name>Subject</name>
+      </field>
+      <field>
+        <name>Güncel</name>
+      </field>
+      <field>
+        <name>Bir Önceki</name>
+      </field>
+      <field>
+        <name>SMPT</name>
+      </field>
+      <field>
+        <name>Port</name>
+      </field>
+      <field>
+        <name>Sender Name</name>
+      </field>
+      <field>
+        <name>Sender Adress</name>
+      </field>
+      <field>
+        <name>Subject_1</name>
+      </field>
+      <field>
+        <name>MeanAlarm</name>
+      </field>
+      <field>
+        <name>Date</name>
+      </field>
+      <field>
+        <name>MeanAlarmold</name>
+        <rename>MeanAlarmİlk</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2656</xloc>
+      <yloc>1248</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 6 3 2 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+      </field>
+      <field>
+        <name>BACOS Constant</name>
+      </field>
+      <field>
+        <name>Vibrasyon_1gun</name>
+      </field>
+      <field>
+        <name>Vibrasyon_1gun_1hafta</name>
+      </field>
+      <field>
+        <name>Fark</name>
+      </field>
+      <field>
+        <name>HL</name>
+      </field>
+      <field>
+        <name>subject2</name>
+      </field>
+      <field>
+        <name>Subject</name>
+      </field>
+      <field>
+        <name>Güncel</name>
+      </field>
+      <field>
+        <name>Bir Önceki</name>
+      </field>
+      <field>
+        <name>SMPT</name>
+      </field>
+      <field>
+        <name>Port</name>
+      </field>
+      <field>
+        <name>Sender Name</name>
+      </field>
+      <field>
+        <name>Sender Adress</name>
+      </field>
+      <field>
+        <name>Subject_1</name>
+      </field>
+      <field>
+        <name>MeanAlarm</name>
+      </field>
+      <field>
+        <name>Date</name>
+      </field>
+      <field>
+        <name>MeanAlarmold</name>
+        <rename>MeanAlarmİkinci</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2656</xloc>
+      <yloc>1312</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 6 3 2 2 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+      </field>
+      <field>
+        <name>BACOS Constant</name>
+      </field>
+      <field>
+        <name>Vibrasyon_1gun</name>
+      </field>
+      <field>
+        <name>Vibrasyon_1gun_1hafta</name>
+      </field>
+      <field>
+        <name>Fark</name>
+      </field>
+      <field>
+        <name>HL</name>
+      </field>
+      <field>
+        <name>subject2</name>
+      </field>
+      <field>
+        <name>Subject</name>
+      </field>
+      <field>
+        <name>Güncel</name>
+      </field>
+      <field>
+        <name>Bir Önceki</name>
+      </field>
+      <field>
+        <name>SMPT</name>
+      </field>
+      <field>
+        <name>Port</name>
+      </field>
+      <field>
+        <name>Sender Name</name>
+      </field>
+      <field>
+        <name>Sender Adress</name>
+      </field>
+      <field>
+        <name>Subject_1</name>
+      </field>
+      <field>
+        <name>MeanAlarm</name>
+      </field>
+      <field>
+        <name>Date</name>
+      </field>
+      <field>
+        <name>MeanAlarmold</name>
+        <rename>MeanAlarmÜçüncü</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2656</xloc>
+      <yloc>1376</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 6 3 3</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+      </field>
+      <field>
+        <name>BACOS Constant</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_1hafta</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_2hafta</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_3hafta</name>
+      </field>
+      <field>
+        <name>HL1</name>
+      </field>
+      <field>
+        <name>HL2</name>
+      </field>
+      <field>
+        <name>subject2</name>
+      </field>
+      <field>
+        <name>Subject</name>
+      </field>
+      <field>
+        <name>Güncel</name>
+      </field>
+      <field>
+        <name>Bir Önceki</name>
+      </field>
+      <field>
+        <name>SMPT</name>
+      </field>
+      <field>
+        <name>Port</name>
+      </field>
+      <field>
+        <name>Sender Name</name>
+      </field>
+      <field>
+        <name>Destination</name>
+      </field>
+      <field>
+        <name>Sender Adress</name>
+      </field>
+      <field>
+        <name>3HaftaAlarm</name>
+      </field>
+      <field>
+        <name>İki Önceki</name>
+      </field>
+      <field>
+        <name>HaftaAlarmold</name>
+        <rename>HaftaAlarmİlk</rename>
+      </field>
+      <field>
+        <name>Tarih</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2464</xloc>
+      <yloc>608</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 6 3 3 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+      </field>
+      <field>
+        <name>BACOS Constant</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_1hafta</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_2hafta</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_3hafta</name>
+      </field>
+      <field>
+        <name>HL1</name>
+      </field>
+      <field>
+        <name>HL2</name>
+      </field>
+      <field>
+        <name>subject2</name>
+      </field>
+      <field>
+        <name>Subject</name>
+      </field>
+      <field>
+        <name>Güncel</name>
+      </field>
+      <field>
+        <name>Bir Önceki</name>
+      </field>
+      <field>
+        <name>SMPT</name>
+      </field>
+      <field>
+        <name>Port</name>
+      </field>
+      <field>
+        <name>Sender Name</name>
+      </field>
+      <field>
+        <name>Destination</name>
+      </field>
+      <field>
+        <name>Sender Adress</name>
+      </field>
+      <field>
+        <name>3HaftaAlarm</name>
+      </field>
+      <field>
+        <name>İki Önceki</name>
+      </field>
+      <field>
+        <name>HaftaAlarmold</name>
+        <rename>HaftaAlarmİkinci</rename>
+      </field>
+      <field>
+        <name>Tarih</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2464</xloc>
+      <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 6 3 3 2 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>subject1</name>
+      </field>
+      <field>
+        <name>BACOS Constant</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_1hafta</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_2hafta</name>
+      </field>
+      <field>
+        <name>Vibrasyon_3_3hafta</name>
+      </field>
+      <field>
+        <name>HL1</name>
+      </field>
+      <field>
+        <name>HL2</name>
+      </field>
+      <field>
+        <name>subject2</name>
+      </field>
+      <field>
+        <name>Subject</name>
+      </field>
+      <field>
+        <name>Güncel</name>
+      </field>
+      <field>
+        <name>Bir Önceki</name>
+      </field>
+      <field>
+        <name>SMPT</name>
+      </field>
+      <field>
+        <name>Port</name>
+      </field>
+      <field>
+        <name>Sender Name</name>
+      </field>
+      <field>
+        <name>Destination</name>
+      </field>
+      <field>
+        <name>Sender Adress</name>
+      </field>
+      <field>
+        <name>3HaftaAlarm</name>
+      </field>
+      <field>
+        <name>İki Önceki</name>
+      </field>
+      <field>
+        <name>HaftaAlarmold</name>
+        <rename>HaftaAlarmÜçüncü</rename>
+      </field>
+      <field>
+        <name>Tarih</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2464</xloc>
+      <yloc>736</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 7</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>HaftaAlarm</name>
+        <rename>HaftaAlarmold</rename>
+      </field>
+      <field>
+        <name>Tarih</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2304</xloc>
+      <yloc>864</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5075,8 +7230,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>480</xloc>
-      <yloc>416</yloc>
+      <xloc>704</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5101,8 +7256,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>384</yloc>
+      <xloc>1504</xloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5127,8 +7282,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>704</yloc>
+      <xloc>1536</xloc>
+      <yloc>1216</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5153,8 +7308,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>608</yloc>
+      <xloc>1536</xloc>
+      <yloc>1120</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5179,8 +7334,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>256</yloc>
+      <xloc>1504</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5205,8 +7360,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>448</yloc>
+      <xloc>1504</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5231,8 +7386,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>256</yloc>
+      <xloc>1504</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5257,8 +7412,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>544</yloc>
+      <xloc>1504</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5283,8 +7438,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1280</xloc>
-      <yloc>320</yloc>
+      <xloc>1504</xloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5324,8 +7479,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
-      <yloc>416</yloc>
+      <xloc>1312</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5340,7 +7495,7 @@ var requestXml = request.toXMLString();
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <sql>SELECT top(1) AlarmsizGunSayisi, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -5359,13 +7514,13 @@ Order By Tarih DESC
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2912</xloc>
-      <yloc>288</yloc>
+      <xloc>3456</xloc>
+      <yloc>480</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Table input 2</name>
+    <name>Table input 3</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -5375,17 +7530,16 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
-    <sql>SELECT
-  Tarih
-, VardiyaAlarm
+    <connection/>
+    <sql>SELECT MeanAlarm, Tarih
 FROM "BACOS_MASTER"
-WHERE Tag = '${tag}'
-Order By Tarih DESC</sql>
+WHERE Tag='${tag}'
+Order By Tarih DESC
+</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
+    <variables_active>Y</variables_active>
     <lazy_conversion_active>N</lazy_conversion_active>
     <cluster_schema/>
     <remotesteps>
@@ -5395,8 +7549,78 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2048</xloc>
-      <yloc>96</yloc>
+      <xloc>2304</xloc>
+      <yloc>1536</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table input 3 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection/>
+    <sql>SELECT VardiyaAlarm, Tarih
+FROM "BACOS_MASTER"
+WHERE Tag='${tag}'
+Order By Tarih DESC
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>Y</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2304</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Table input 3 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection/>
+    <sql>SELECT HaftaAlarm, Tarih
+FROM "BACOS_MASTER"
+WHERE Tag='${tag}'
+Order By Tarih DESC
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>Y</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2304</xloc>
+      <yloc>928</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5411,7 +7635,7 @@ Order By Tarih DESC</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <schema/>
     <table>BACOS_MASTER</table>
     <commit>1000</commit>
@@ -5462,8 +7686,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3008</xloc>
-      <yloc>544</yloc>
+      <xloc>3456</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5478,7 +7702,7 @@ Order By Tarih DESC</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <schema/>
     <table>BACOS_MASTER</table>
     <commit>1000</commit>
@@ -5529,8 +7753,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3360</xloc>
-      <yloc>448</yloc>
+      <xloc>3808</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5564,8 +7788,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>256</yloc>
+      <xloc>1600</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5599,8 +7823,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>256</yloc>
+      <xloc>1600</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5634,8 +7858,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>320</yloc>
+      <xloc>1600</xloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5669,8 +7893,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>384</yloc>
+      <xloc>1600</xloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5704,8 +7928,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>704</yloc>
+      <xloc>1600</xloc>
+      <yloc>1216</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5739,8 +7963,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>608</yloc>
+      <xloc>1600</xloc>
+      <yloc>1120</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5774,8 +7998,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>544</yloc>
+      <xloc>1600</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5809,8 +8033,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
-      <yloc>448</yloc>
+      <xloc>1600</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5833,854 +8057,8 @@ Order By Tarih DESC</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2688</xloc>
-      <yloc>544</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Get variables 4</name>
-    <type>GetVariable</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>subject1</name>
-        <variable>${tag}</variable>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1888</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product) 5 3</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1888</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Add constants</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>subject2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>Üç Vardiyadır Artış Trendinde</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1952</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Concat fields 3</name>
-    <type>ConcatFields</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator> </separator>
-    <enclosure/>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>N</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>file</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>txt</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
-    <fields>
-      <field>
-        <name>subject1</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>subject2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-    <ConcatFields>
-      <targetFieldName>Subject</targetFieldName>
-      <targetFieldLength>0</targetFieldLength>
-      <removeSelectedFields>N</removeSelectedFields>
-    </ConcatFields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2016</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Get variables 4 2</name>
-    <type>GetVariable</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>subject1</name>
-        <variable>${tag}</variable>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1856</xloc>
-      <yloc>544</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product) 5 3 2</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1856</xloc>
-      <yloc>448</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Add constants 4</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>subject2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>Üç Haftadır Artış Trendinde</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1920</xloc>
-      <yloc>448</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Concat fields 3 2</name>
-    <type>ConcatFields</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator> </separator>
-    <enclosure/>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>N</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>file</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>txt</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
-    <fields>
-      <field>
-        <name>subject1</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>subject2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-    <ConcatFields>
-      <targetFieldName>Subject</targetFieldName>
-      <targetFieldLength>0</targetFieldLength>
-      <removeSelectedFields>N</removeSelectedFields>
-    </ConcatFields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2016</xloc>
-      <yloc>448</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Get variables 4 2 2</name>
-    <type>GetVariable</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>subject1</name>
-        <variable>${tag}</variable>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1952</xloc>
+      <xloc>3136</xloc>
       <yloc>768</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product) 5 3 2 2</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1952</xloc>
-      <yloc>672</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Add constants 4 2</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>subject2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>Bugün Geçen Haftaya Göre Yüksek</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2048</xloc>
-      <yloc>672</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Concat fields 3 2 2</name>
-    <type>ConcatFields</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator> </separator>
-    <enclosure/>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>N</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>file</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>txt</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
-    <fields>
-      <field>
-        <name>subject1</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>subject2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-    <ConcatFields>
-      <targetFieldName>Subject</targetFieldName>
-      <targetFieldLength>0</targetFieldLength>
-      <removeSelectedFields>N</removeSelectedFields>
-    </ConcatFields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2112</xloc>
-      <yloc>672</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>If field value is null 2</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <replaceAllByValue>0</replaceAllByValue>
-    <replaceAllMask/>
-    <selectFields>N</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2912</xloc>
-      <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Get variables 5</name>
-    <type>GetVariable</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>Destination</name>
-        <variable>${emailler}</variable>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2784</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product) 7</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2784</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Get variables 5 2</name>
-    <type>GetVariable</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>Destination</name>
-        <variable>${emailler}</variable>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2272</xloc>
-      <yloc>896</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product) 7 2</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2272</xloc>
-      <yloc>800</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Get variables 5 3</name>
-    <type>GetVariable</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>Destination</name>
-        <variable>${emailler}</variable>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2144</xloc>
-      <yloc>608</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Join rows (cartesian product) 7 3</name>
-    <type>JoinRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <cache_size>500</cache_size>
-    <main/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
-      </condition>
-    </compare>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>2144</xloc>
-      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
