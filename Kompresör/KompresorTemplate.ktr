@@ -30,6 +30,16 @@
         <description/>
       </parameter>
       <parameter>
+        <name>tripDegeri</name>
+        <default_value>20</default_value>
+        <description/>
+      </parameter>
+      <parameter>
+        <name>tripDegeriYuzdesi</name>
+        <default_value>0.3</default_value>
+        <description/>
+      </parameter>
+      <parameter>
         <name>vardiyaCons</name>
         <default_value>1.02</default_value>
         <description/>
@@ -492,11 +502,13 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>Vardiya Alarmı için Bacos Constant</note>
-      <xloc>1664</xloc>
-      <yloc>288</yloc>
-      <width>240</width>
-      <heigth>30</heigth>
+      <note>Vardiya Alarmı için 
+-Bacos Constant 
+-Trip Değeri</note>
+      <xloc>1760</xloc>
+      <yloc>256</yloc>
+      <width>112</width>
+      <heigth>58</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -513,32 +525,13 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>Haftalık alaram için Bacos Constant</note>
-      <xloc>1824</xloc>
-      <yloc>448</yloc>
-      <width>245</width>
-      <heigth>30</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>Günlük yükseliş için bacos constant</note>
-      <xloc>1824</xloc>
-      <yloc>864</yloc>
-      <width>240</width>
-      <heigth>30</heigth>
+      <note>Haftalık alaram için 
+-Bacos Constant
+-Trip Degeri</note>
+      <xloc>1760</xloc>
+      <yloc>576</yloc>
+      <width>116</width>
+      <heigth>58</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -578,7 +571,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <notepad>
       <note>3 Haftalık Alarm</note>
       <xloc>2432</xloc>
-      <yloc>928</yloc>
+      <yloc>1024</yloc>
       <width>330</width>
       <heigth>64</heigth>
       <fontname>Segoe UI</fontname>
@@ -638,6 +631,113 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <bordercolorblue>100</bordercolorblue>
       <drawshadow>Y</drawshadow>
     </notepad>
+    <notepad>
+      <note>Mutlak değer alır</note>
+      <xloc>1216</xloc>
+      <yloc>480</yloc>
+      <width>100</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Alarm Check</note>
+      <xloc>1984</xloc>
+      <yloc>384</yloc>
+      <width>78</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Alarm Check</note>
+      <xloc>1952</xloc>
+      <yloc>640</yloc>
+      <width>78</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Günlük alaram için 
+-Bacos Constant
+-Trip Degeri</note>
+      <xloc>1760</xloc>
+      <yloc>1280</yloc>
+      <width>113</width>
+      <heigth>58</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>Alarm Check</note>
+      <xloc>2016</xloc>
+      <yloc>1152</yloc>
+      <width>78</width>
+      <heigth>26</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
   </notepads>
   <order>
     <hop>
@@ -653,7 +753,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Add constants 3</from>
       <to>Table output</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Add constants 3 4</from>
@@ -998,17 +1098,17 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Join rows (cartesian product) 6 2</from>
       <to>Table output 2</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Join rows (cartesian product) 7</from>
       <to>Mail</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Join rows (cartesian product) 7 2</from>
       <to>Mail 2 2</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Join rows (cartesian product) 7 3</from>
@@ -1341,29 +1441,24 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort rows 2 2</from>
-      <to>Row denormaliser 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Table input</from>
       <to>If field value is null 2</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Table input 3</from>
       <to>Select values 5 2</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Table input 3 2</from>
       <to>Select values 5</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Table input 3 2 2</from>
       <to>Select values 7</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Univariate statistics</from>
@@ -1408,6 +1503,16 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>alarm varsa</from>
       <to>Join rows (cartesian product) 6</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows 2 2</from>
+      <to>Calculator</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculator</from>
+      <to>Row denormaliser 2 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -1482,7 +1587,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>544</xloc>
+      <xloc>448</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1789,7 +1894,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2304</xloc>
-      <yloc>544</yloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2025,7 +2130,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>640</xloc>
+      <xloc>544</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2158,7 +2263,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>3296</xloc>
+      <xloc>3264</xloc>
       <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2292,7 +2397,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2592</xloc>
-      <yloc>832</yloc>
+      <yloc>928</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2571,7 +2676,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2240</xloc>
-      <yloc>544</yloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2734,7 +2839,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>256</xloc>
+      <xloc>160</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2768,6 +2873,13 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
             <leftvalue>Vibrasyon_8_2saat</leftvalue>
             <function>&gt;</function>
             <rightvalue>HL2</rightvalue>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>Vibrasyon_8_1saat</leftvalue>
+            <function>&gt;</function>
+            <rightvalue>TripLimit</rightvalue>
           </condition>
         </conditions>
       </condition>
@@ -2815,6 +2927,13 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
             <function>&gt;</function>
             <rightvalue>HL2</rightvalue>
           </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>TripLimit</leftvalue>
+            <function>&gt;</function>
+            <rightvalue>Vibrasyon_3_1hafta</rightvalue>
+          </condition>
         </conditions>
       </condition>
     </compare>
@@ -2847,9 +2966,21 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <compare>
       <condition>
         <negated>N</negated>
-        <leftvalue>Vibrasyon_1gun</leftvalue>
-        <function>&gt;</function>
-        <rightvalue>HL</rightvalue>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>Vibrasyon_1gun</leftvalue>
+            <function>&gt;</function>
+            <rightvalue>HL</rightvalue>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>Vibrasyon_1gun</leftvalue>
+            <function>&gt;</function>
+            <rightvalue>TripLimit</rightvalue>
+          </condition>
+        </conditions>
       </condition>
     </compare>
     <cluster_schema/>
@@ -2860,7 +2991,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2080</xloc>
+      <xloc>2048</xloc>
       <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3245,7 +3376,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2592</xloc>
-      <yloc>672</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3276,6 +3407,14 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <value_precision>-1</value_precision>
       <replace_field/>
     </formula>
+    <formula>
+      <field_name>TripLimit</field_name>
+      <formula_string>[TripDegeri]*[TripDegeriYuzdesi]</formula_string>
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -3284,7 +3423,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2016</xloc>
+      <xloc>1952</xloc>
       <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3380,6 +3519,14 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <value_precision>-1</value_precision>
       <replace_field/>
     </formula>
+    <formula>
+      <field_name>TripLimit</field_name>
+      <formula_string>[TripDegeri]*[TripDegeriYuzdesi]</formula_string>
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -3415,6 +3562,14 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <formula>
       <field_name>HL2</field_name>
       <formula_string>[Vibrasyon_8_3saat]*[BACOS Constant]</formula_string>
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
+    <formula>
+      <field_name>TripLimit</field_name>
+      <formula_string>[TripDegeri]*[TripDegeriYuzdesi]</formula_string>
       <value_type>Number</value_type>
       <value_length>-1</value_length>
       <value_precision>-1</value_precision>
@@ -3548,7 +3703,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1152</xloc>
+      <xloc>1056</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3578,7 +3733,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>448</xloc>
+      <xloc>352</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3646,7 +3801,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
+      <xloc>256</xloc>
       <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3751,6 +3906,30 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>TripDegeri</name>
+        <variable>${tripDegeri}</variable>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>TripDegeriYuzdesi</name>
+        <variable>${tripDegeriYuzdesi}</variable>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <cluster_schema/>
     <remotesteps>
@@ -3760,7 +3939,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1888</xloc>
+      <xloc>1856</xloc>
       <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
@@ -3780,6 +3959,30 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <field>
         <name>BACOS Constant</name>
         <variable>${haftalikCons}</variable>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>TripDegeri</name>
+        <variable>${tripDegeri}</variable>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>TripDegeriYuzdesi</name>
+        <variable>${tripDegeriYuzdesi}</variable>
         <type>Number</type>
         <format/>
         <currency/>
@@ -3827,6 +4030,30 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>TripDegeri</name>
+        <variable>${tripDegeri}</variable>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>TripDegeriYuzdesi</name>
+        <variable>${tripDegeriYuzdesi}</variable>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <cluster_schema/>
     <remotesteps>
@@ -3836,8 +4063,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1920</xloc>
-      <yloc>1280</yloc>
+      <xloc>1888</xloc>
+      <yloc>1248</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4065,7 +4292,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2656</xloc>
-      <yloc>896</yloc>
+      <yloc>992</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4114,7 +4341,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
+      <xloc>992</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4280,7 +4507,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2304</xloc>
-      <yloc>800</yloc>
+      <yloc>896</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4496,7 +4723,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2528</xloc>
-      <yloc>672</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -4567,7 +4794,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
+      <xloc>256</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4603,7 +4830,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1888</xloc>
+      <xloc>1856</xloc>
       <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4675,7 +4902,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1920</xloc>
+      <xloc>1888</xloc>
       <yloc>1184</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4964,7 +5191,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2656</xloc>
-      <yloc>832</yloc>
+      <yloc>928</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5036,7 +5263,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2304</xloc>
-      <yloc>672</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5168,7 +5395,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2720</xloc>
-      <yloc>832</yloc>
+      <yloc>928</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5265,7 +5492,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </remotesteps>
     <GUI>
       <xloc>2496</xloc>
-      <yloc>544</yloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5430,7 +5657,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1024</xloc>
+      <xloc>928</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -5480,7 +5707,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
+      <xloc>768</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -5504,7 +5731,7 @@ var requestXml = request.toXMLString();
     </group>
     <fields>
       <field>
-        <field_name>Value</field_name>
+        <field_name>Value2</field_name>
         <key_value>${tag}</key_value>
         <target_name>Vibrasyon1</target_name>
         <target_type>Number</target_type>
@@ -5526,7 +5753,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1376</xloc>
+      <xloc>1344</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -5657,7 +5884,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2400</xloc>
-      <yloc>608</yloc>
+      <yloc>704</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5683,7 +5910,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2400</xloc>
-      <yloc>672</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5709,7 +5936,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2400</xloc>
-      <yloc>736</yloc>
+      <yloc>832</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -5935,7 +6162,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
+      <xloc>704</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -6129,7 +6356,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1216</xloc>
+      <xloc>1120</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -6190,7 +6417,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2400</xloc>
-      <yloc>544</yloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -6239,7 +6466,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>928</xloc>
+      <xloc>832</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -6960,7 +7187,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2464</xloc>
-      <yloc>608</yloc>
+      <yloc>704</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -7048,7 +7275,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2464</xloc>
-      <yloc>672</yloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -7136,7 +7363,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2464</xloc>
-      <yloc>736</yloc>
+      <yloc>832</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -7170,7 +7397,7 @@ var requestXml = request.toXMLString();
     </remotesteps>
     <GUI>
       <xloc>2304</xloc>
-      <yloc>864</yloc>
+      <yloc>960</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -7230,7 +7457,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
+      <xloc>608</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -7479,7 +7706,7 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1312</xloc>
+      <xloc>1184</xloc>
       <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
@@ -7620,7 +7847,7 @@ Order By Tarih DESC
     </remotesteps>
     <GUI>
       <xloc>2304</xloc>
-      <yloc>928</yloc>
+      <yloc>1024</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -8059,6 +8286,45 @@ Order By Tarih DESC
     <GUI>
       <xloc>3136</xloc>
       <yloc>768</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculator</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <calculation>
+      <field_name>Value2</field_name>
+      <calc_type>ABS</calc_type>
+      <field_a>Value</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1280</xloc>
+      <yloc>512</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
