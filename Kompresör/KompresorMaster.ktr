@@ -539,8 +539,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-        <item/>
-        <item/>
+        <item>300</item>
+        <item>36K-101</item>
       </line>
       <line>
         <item>36ZI251B.DACA.PV</item>
@@ -548,8 +548,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-        <item/>
-        <item/>
+        <item>300</item>
+        <item>36K-101</item>
       </line>
       <line>
         <item>36ZI251C.DACA.PV</item>
@@ -557,8 +557,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-        <item/>
-        <item/>
+        <item>300</item>
+        <item>36K-101</item>
       </line>
       <line>
         <item>36ZI254A.DACA.PV</item>
@@ -566,8 +566,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-        <item/>
-        <item/>
+        <item>300</item>
+        <item>36K-101</item>
       </line>
       <line>
         <item>36ZI254B.DACA.PV</item>
@@ -575,8 +575,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-        <item/>
-        <item/>
+        <item>300</item>
+        <item>36K-101</item>
       </line>
       <line>
         <item>36ZI254C.DACA.PV</item>
@@ -584,8 +584,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-        <item/>
-        <item/>
+        <item>300</item>
+        <item>36K-101</item>
       </line>
       <line>
         <item>47ZI601A.PV</item>
@@ -1450,6 +1450,510 @@
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
         <item>110</item>
         <item>47K-2/C</item>
+      </line>
+      <line>
+        <item>36VI420.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-110/A</item>
+      </line>
+      <line>
+        <item>36VI440.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36VI31.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-1/A</item>
+      </line>
+      <line>
+        <item>36VI36.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-1/B</item>
+      </line>
+      <line>
+        <item>36VI641.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-202/A</item>
+      </line>
+      <line>
+        <item>36VI651.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-202/B</item>
+      </line>
+      <line>
+        <item>36VI671.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-201/A</item>
+      </line>
+      <line>
+        <item>36VI676.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>12</item>
+        <item>36K-201/B</item>
+      </line>
+      <line>
+        <item>36TT72A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/A</item>
+      </line>
+      <line>
+        <item>36TT72B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/A</item>
+      </line>
+      <line>
+        <item>36TT75A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/A</item>
+      </line>
+      <line>
+        <item>36TT75B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/A</item>
+      </line>
+      <line>
+        <item>36TT92A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/B</item>
+      </line>
+      <line>
+        <item>36TT72B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/B</item>
+      </line>
+      <line>
+        <item>36TT95A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/B</item>
+      </line>
+      <line>
+        <item>36TT95B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>140</item>
+        <item>36K-1/B</item>
+      </line>
+      <line>
+        <item>36TT872A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/A</item>
+      </line>
+      <line>
+        <item>36TT872B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/A</item>
+      </line>
+      <line>
+        <item>36TT875A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/A</item>
+      </line>
+      <line>
+        <item>36TT875B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/A</item>
+      </line>
+      <line>
+        <item>36TT887A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/B</item>
+      </line>
+      <line>
+        <item>36TT887B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/B</item>
+      </line>
+      <line>
+        <item>36TT890A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/B</item>
+      </line>
+      <line>
+        <item>36TT890B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-201/B</item>
+      </line>
+      <line>
+        <item>36TT813A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/A</item>
+      </line>
+      <line>
+        <item>36TT813B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/A</item>
+      </line>
+      <line>
+        <item>36TT816A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/A</item>
+      </line>
+      <line>
+        <item>36TT816B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/A</item>
+      </line>
+      <line>
+        <item>36TT833A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/B</item>
+      </line>
+      <line>
+        <item>36TT833B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/B</item>
+      </line>
+      <line>
+        <item>36TT836A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/B</item>
+      </line>
+      <line>
+        <item>36TT836B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>145</item>
+        <item>36K-202/B</item>
+      </line>
+      <line>
+        <item>36TT852A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>150</item>
+        <item>36K-203</item>
+      </line>
+      <line>
+        <item>36TT852B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>150</item>
+        <item>36K-203</item>
+      </line>
+      <line>
+        <item>36TT855A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>150</item>
+        <item>36K-203</item>
+      </line>
+      <line>
+        <item>36TT855B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>150</item>
+        <item>36K-203</item>
+      </line>
+      <line>
+        <item>36TT275A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>170</item>
+        <item>36K-101</item>
+      </line>
+      <line>
+        <item>36TT275B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>170</item>
+        <item>36K-101</item>
+      </line>
+      <line>
+        <item>36TT275C.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>170</item>
+        <item>36K-101</item>
+      </line>
+      <line>
+        <item>36TT421A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>120</item>
+        <item>36K-110/A</item>
+      </line>
+      <line>
+        <item>36TT421B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>120</item>
+        <item>36K-110/A</item>
+      </line>
+      <line>
+        <item>36TT423A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>125</item>
+        <item>36K-110/A</item>
+      </line>
+      <line>
+        <item>36TT423B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>125</item>
+        <item>36K-110/A</item>
+      </line>
+      <line>
+        <item>36TT441A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>120</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36TT441B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>120</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36TT443A.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>125</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36TT443B.AI.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>125</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI295A.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI295B.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI296A.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI296B.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI297A.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI297B.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI298A.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item>36XI298B.DACA.PV</item>
+        <item>1.02</item>
+        <item>1.02</item>
+        <item>1.05</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+        <item>70</item>
+        <item>36K-110/B</item>
+      </line>
+      <line>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
       </line>
     </data>
     <attributes/>
