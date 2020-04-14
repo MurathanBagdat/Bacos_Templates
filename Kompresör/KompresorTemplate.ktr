@@ -758,7 +758,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Add constants 3</from>
       <to>Table output</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Add constants 3 4</from>
@@ -1103,17 +1103,17 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Join rows (cartesian product) 6 2</from>
       <to>Table output 2</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Join rows (cartesian product) 7</from>
       <to>Mail</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Join rows (cartesian product) 7 2</from>
       <to>Mail 2 2</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Join rows (cartesian product) 7 3</from>
@@ -1448,22 +1448,22 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Table input</from>
       <to>If field value is null 2</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Table input 3</from>
       <to>Select values 5 2</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Table input 3 2</from>
       <to>Select values 5</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Table input 3 2 2</from>
       <to>Select values 7</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Univariate statistics</from>
