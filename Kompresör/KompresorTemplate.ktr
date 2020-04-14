@@ -10,6 +10,11 @@
     <directory>/</directory>
     <parameters>
       <parameter>
+        <name>ekipmanAdı</name>
+        <default_value>63K-101/C</default_value>
+        <description/>
+      </parameter>
+      <parameter>
         <name>emailler</name>
         <default_value>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</default_value>
         <description/>
@@ -36,7 +41,7 @@
       </parameter>
       <parameter>
         <name>tripDegeriYuzdesi</name>
-        <default_value>0.3</default_value>
+        <default_value>0.2</default_value>
         <description/>
       </parameter>
       <parameter>
@@ -2553,6 +2558,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </file>
     <fields>
       <field>
+        <name>ekipmanAdı</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
         <name>subject1</name>
         <type>String</type>
         <format/>
@@ -2638,6 +2655,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </file>
     <fields>
       <field>
+        <name>ekipmanAdı</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
         <name>subject1</name>
         <type>String</type>
         <format/>
@@ -2722,6 +2751,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <splitevery>0</splitevery>
     </file>
     <fields>
+      <field>
+        <name>ekipmanAdı</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
       <field>
         <name>subject1</name>
         <type>String</type>
@@ -4092,6 +4133,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>ekipmanAdı</name>
+        <variable>${ekipmanAdı}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <cluster_schema/>
     <remotesteps>
@@ -4130,6 +4183,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
+      <field>
+        <name>ekipmanAdı</name>
+        <variable>${ekipmanAdı}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
     </fields>
     <cluster_schema/>
     <remotesteps>
@@ -4159,6 +4224,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <field>
         <name>subject1</name>
         <variable>${tag}</variable>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>ekipmanAdı</name>
+        <variable>${ekipmanAdı}</variable>
         <type>String</type>
         <format/>
         <currency/>
