@@ -6,7 +6,7 @@
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <directory>/</directory>
+    <directory>/home/09775/Bacos_Templates</directory>
     <parameters>
     </parameters>
     <log>
@@ -429,8 +429,8 @@
     <created_user>-</created_user>
     <created_date>2020/04/09 11:25:41.606</created_date>
     <modified_user>09775</modified_user>
-    <modified_date>2020/04/09 16:23:44.250</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <modified_date>2020/04/14 19:52:05.410</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -550,7 +550,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>300</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -560,7 +560,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>300</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -570,7 +570,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>300</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -580,7 +580,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>300</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -590,7 +590,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>300</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -600,7 +600,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>300</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -610,7 +610,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.7</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -620,7 +620,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.7</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -630,7 +630,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.7</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -640,7 +640,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.7</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -650,7 +650,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.514</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -660,7 +660,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.514</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -670,7 +670,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.540</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -680,28 +680,8 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.540</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
-        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-      </line>
-      <line>
-        <item>63ZI1801A.PV</item>
-        <item>1.02</item>
-        <item>1.02</item>
-        <item>1.05</item>
-        <item>0.527</item>
-        <item/>
-        <item>63K-100</item>
-        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-      </line>
-      <line>
-        <item>63ZI1801B.PV</item>
-        <item>1.02</item>
-        <item>1.02</item>
-        <item>1.05</item>
-        <item>0.527</item>
-        <item/>
-        <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
       <line>
@@ -710,7 +690,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.527</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -720,7 +700,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>0.527</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -730,7 +710,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>112</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -740,7 +720,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>112</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -750,7 +730,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>90</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -760,7 +740,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>90</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -770,7 +750,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>90</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -780,7 +760,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>90</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -790,7 +770,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>90</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -800,7 +780,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>90</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-1</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -810,7 +790,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -820,7 +800,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>15</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -830,7 +810,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -840,7 +820,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>9</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-100</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -850,7 +830,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>11.5</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -860,7 +840,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>15</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -870,7 +850,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>17.5</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -880,7 +860,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>8</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-201</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -890,7 +870,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>20</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -900,7 +880,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>20</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -910,7 +890,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -920,7 +900,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -930,7 +910,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -940,7 +920,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -950,7 +930,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -960,7 +940,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -970,7 +950,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -980,7 +960,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -990,7 +970,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1000,7 +980,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1010,7 +990,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1020,7 +1000,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>158</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1030,7 +1010,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>20</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1040,7 +1020,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>20</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1050,7 +1030,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>20</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1060,7 +1040,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1070,7 +1050,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1080,7 +1060,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1090,7 +1070,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1100,7 +1080,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1110,7 +1090,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1120,7 +1100,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1130,7 +1110,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1140,7 +1120,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1150,7 +1130,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1160,7 +1140,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1170,7 +1150,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1180,7 +1160,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1190,7 +1170,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1200,7 +1180,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1210,7 +1190,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1220,7 +1200,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1230,7 +1210,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1240,7 +1220,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1250,7 +1230,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1260,7 +1240,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1270,7 +1250,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1280,7 +1260,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1290,7 +1270,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1300,7 +1280,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1310,7 +1290,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1320,7 +1300,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1330,7 +1310,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1340,7 +1320,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1350,7 +1330,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1360,7 +1340,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1370,7 +1350,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1380,7 +1360,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1390,7 +1370,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1400,7 +1380,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1410,7 +1390,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>155</item>
-        <item/>
+        <item>0.25</item>
         <item>63K-101/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1420,7 +1400,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1430,7 +1410,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1440,7 +1420,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1450,7 +1430,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1460,7 +1440,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1470,7 +1450,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1480,7 +1460,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1490,7 +1470,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1500,7 +1480,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1510,7 +1490,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1520,7 +1500,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1530,7 +1510,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1540,7 +1520,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>110</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1550,7 +1530,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>110</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1560,7 +1540,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>110</item>
-        <item/>
+        <item>0.25</item>
         <item>47K-2/C</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1570,7 +1550,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1580,7 +1560,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1590,7 +1570,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1600,7 +1580,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1610,7 +1590,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1620,7 +1600,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1630,7 +1610,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1640,7 +1620,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>12</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1650,7 +1630,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1660,7 +1640,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1670,7 +1650,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1680,7 +1660,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1690,7 +1670,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1700,7 +1680,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1710,7 +1690,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1720,7 +1700,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>140</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-1/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1730,7 +1710,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1740,7 +1720,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1750,7 +1730,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1760,7 +1740,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1770,7 +1750,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1780,7 +1760,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1790,7 +1770,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1800,7 +1780,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-201/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1810,7 +1790,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1820,7 +1800,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1830,7 +1810,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1840,7 +1820,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1850,7 +1830,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1860,7 +1840,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1870,7 +1850,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1880,7 +1860,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>145</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-202/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1890,7 +1870,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-203</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1900,7 +1880,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-203</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1910,7 +1890,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-203</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1920,7 +1900,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>150</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-203</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1930,7 +1910,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>170</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1940,7 +1920,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>170</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1950,7 +1930,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>170</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-101</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1960,7 +1940,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>120</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1970,7 +1950,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>120</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1980,7 +1960,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>125</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -1990,7 +1970,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>125</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/A</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2000,7 +1980,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>120</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2010,7 +1990,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>120</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2020,7 +2000,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>125</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2030,7 +2010,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>125</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2040,7 +2020,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2050,7 +2030,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2060,7 +2040,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2070,7 +2050,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2080,7 +2060,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2090,7 +2070,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2100,7 +2080,7 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
       </line>
@@ -2110,19 +2090,9 @@
         <item>1.02</item>
         <item>1.05</item>
         <item>70</item>
-        <item/>
+        <item>0.25</item>
         <item>36K-110/B</item>
         <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
-      </line>
-      <line>
-        <item/>
-        <item/>
-        <item/>
-        <item/>
-        <item/>
-        <item/>
-        <item/>
-        <item/>
       </line>
     </data>
     <cluster_schema/>
@@ -2133,7 +2103,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>256</xloc>
+      <xloc>224</xloc>
       <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
