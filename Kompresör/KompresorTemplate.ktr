@@ -7,7 +7,7 @@
     <trans_version/>
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>/home/09793</directory>
+    <directory>/</directory>
     <parameters>
       <parameter>
         <name>ekipmanAdı</name>
@@ -476,7 +476,7 @@
     <created_date>2020/04/09 11:25:08.295</created_date>
     <modified_user>09793</modified_user>
     <modified_date>2020/04/16 19:30:23.720</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -2118,18 +2118,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
-        <name>Subject</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>47K-1 ZI601/B Bugün Geçen Haftaya Göre Yüksek</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
         <name>MeanAlarm</name>
         <type>Number</type>
         <format/>
@@ -3231,7 +3219,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
             <negated>N</negated>
             <operator>AND</operator>
             <leftvalue>TripLimit</leftvalue>
-            <function>&gt;</function>
+            <function>&lt;</function>
             <rightvalue>Vibrasyon_3_1hafta</rightvalue>
           </condition>
         </conditions>
@@ -7597,67 +7585,51 @@ var requestXml = request.toXMLString();
       </field>
       <field>
         <name>subject1</name>
-        <rename/>
       </field>
       <field>
         <name>ekipmanAdı</name>
-        <rename/>
       </field>
       <field>
         <name>subject2</name>
-        <rename/>
       </field>
       <field>
         <name>Subject</name>
-        <rename/>
       </field>
       <field>
         <name>Güncel</name>
-        <rename/>
       </field>
       <field>
         <name>Bir Önceki</name>
-        <rename/>
       </field>
       <field>
         <name>SMPT</name>
-        <rename/>
       </field>
       <field>
         <name>Port</name>
-        <rename/>
       </field>
       <field>
         <name>Sender Name</name>
-        <rename/>
       </field>
       <field>
         <name>Destination</name>
-        <rename/>
       </field>
       <field>
         <name>Sender Adress</name>
-        <rename/>
       </field>
       <field>
         <name>3VardiyaAlarm</name>
-        <rename/>
       </field>
       <field>
         <name>İki Önceki</name>
-        <rename/>
       </field>
       <field>
         <name>Vibrasyon_8_3saat</name>
-        <rename/>
       </field>
       <field>
         <name>Vibrasyon_8_2saat</name>
-        <rename/>
       </field>
       <field>
         <name>Vibrasyon_8_1saat</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -8458,7 +8430,7 @@ var requestXml = request.toXMLString();
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <sql>SELECT top(1) AlarmsizGunSayisi, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8494,7 +8466,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <sql>SELECT MeanAlarm, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8530,7 +8502,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <sql>SELECT VardiyaAlarm, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8566,7 +8538,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <sql>SELECT HaftaAlarm, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8602,7 +8574,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <schema/>
     <table>BACOS_MASTER</table>
     <commit>1000</commit>
@@ -8670,7 +8642,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>pentaho_test_db</connection>
+    <connection/>
     <schema/>
     <table>BACOS_MASTER</table>
     <commit>1000</commit>
