@@ -7,7 +7,7 @@
     <trans_version/>
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>/</directory>
+    <directory>/home/09793</directory>
     <parameters>
       <parameter>
         <name>ekipmanAdı</name>
@@ -26,17 +26,17 @@
       </parameter>
       <parameter>
         <name>haftalikCons</name>
-        <default_value>1.02</default_value>
+        <default_value>1</default_value>
         <description/>
       </parameter>
       <parameter>
         <name>tag</name>
-        <default_value>47VI601B.PV</default_value>
+        <default_value>47TI432B.PV</default_value>
         <description/>
       </parameter>
       <parameter>
         <name>tag2</name>
-        <default_value>47TI418B.PV</default_value>
+        <default_value>47TI432B.PV</default_value>
         <description/>
       </parameter>
       <parameter>
@@ -46,7 +46,7 @@
       </parameter>
       <parameter>
         <name>tripDegeriYuzdesi</name>
-        <default_value>0.2</default_value>
+        <default_value>0.1</default_value>
         <description/>
       </parameter>
       <parameter>
@@ -475,8 +475,8 @@
     <created_user>-</created_user>
     <created_date>2020/04/09 11:25:08.295</created_date>
     <modified_user>09793</modified_user>
-    <modified_date>2020/04/16 19:30:23.720</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <modified_date>2020/04/22 11:21:14.227</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -883,11 +883,6 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <hop>
       <from>Filter rows 6 2</from>
       <to>Concat fields 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows 6 3</from>
-      <to>Concat fields 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -1645,6 +1640,61 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <to>Join rows (cartesian product) 2 2</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Filter rows 6 3</from>
+      <to>Merge join 9</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add constants 5</from>
+      <to>Merge join 9</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge join 8</from>
+      <to>Filter rows 10</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows 10</from>
+      <to>Add constants 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 3</from>
+      <to>Calculator 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 6 3 3 2</from>
+      <to>Calculator 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculator 3</from>
+      <to>Merge join 8</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculator 4</from>
+      <to>Merge join 8</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge join 9</from>
+      <to>Merge join 10</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge join 10</from>
+      <to>Concat fields 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sample rows 2 3</from>
+      <to>Merge join 10</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Add constants</name>
@@ -2118,6 +2168,18 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
+        <name>Subject</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>47K-1 ZI601/B Bugün Geçen Haftaya Göre Yüksek</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
         <name>MeanAlarm</name>
         <type>Number</type>
         <format/>
@@ -2223,6 +2285,45 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </GUI>
   </step>
   <step>
+    <name>Add constants 5</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>TarihAlarmı</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>1</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3008</xloc>
+      <yloc>880</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Calculator</name>
     <type>Calculator</type>
     <description/>
@@ -2301,6 +2402,88 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     <GUI>
       <xloc>512</xloc>
       <yloc>608</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculator 3</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>Tarihİlk1</field_name>
+      <calc_type>REMOVE_TIME_FROM_DATE</calc_type>
+      <field_a>Tarihilk</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Date</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask>yyyy-MM-dd</conversion_mask>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2880</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculator 4</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>Tarihİkinci2</field_name>
+      <calc_type>REMOVE_TIME_FROM_DATE</calc_type>
+      <field_a>Tarihİkinci</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Date</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask>yyyy-MM-dd</conversion_mask>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2896</xloc>
+      <yloc>768</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2567,8 +2750,8 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2880</xloc>
-      <yloc>992</yloc>
+      <xloc>2784</xloc>
+      <yloc>1008</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3186,6 +3369,41 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </GUI>
   </step>
   <step>
+    <name>Filter rows 10</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Add constants 5</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>Y</negated>
+        <leftvalue>Tarihİlk1</leftvalue>
+        <function>=</function>
+        <rightvalue>Tarihİkinci2</rightvalue>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3024</xloc>
+      <yloc>768</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Filter rows 2</name>
     <type>FilterRows</type>
     <description/>
@@ -3605,7 +3823,7 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Concat fields 2</send_true_to>
+    <send_true_to>Merge join 9</send_true_to>
     <send_false_to/>
     <compare>
       <condition>
@@ -6504,6 +6722,70 @@ Yeni TARGET TABLE: BACOS_63K_201_ZI2501A
     </GUI>
   </step>
   <step>
+    <name>Merge join 8</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <join_type>FULL OUTER</join_type>
+    <step1>Calculator 4</step1>
+    <step2>Calculator 3</step2>
+    <keys_1>
+    </keys_1>
+    <keys_2>
+    </keys_2>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>3008</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge join 9</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <join_type>FULL OUTER</join_type>
+    <step1>Filter rows 6 3</step1>
+    <step2>Add constants 5</step2>
+    <keys_1>
+    </keys_1>
+    <keys_2>
+    </keys_2>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2896</xloc>
+      <yloc>912</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Modified JavaScript value 2 2 2</name>
     <type>ScriptValueMod</type>
     <description/>
@@ -6802,7 +7084,7 @@ var requestXml = request.toXMLString();
     <name>Sample rows 2 3</name>
     <type>SampleRows</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -7859,7 +8141,7 @@ var requestXml = request.toXMLString();
     <name>Select values 6 3 3</name>
     <type>SelectValues</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -7868,64 +8150,31 @@ var requestXml = request.toXMLString();
     </partitioning>
     <fields>
       <field>
-        <name>subject1</name>
-      </field>
-      <field>
-        <name>BACOS Constant</name>
-      </field>
-      <field>
-        <name>Vibrasyon_3_1hafta</name>
-      </field>
-      <field>
-        <name>Vibrasyon_3_2hafta</name>
-      </field>
-      <field>
-        <name>Vibrasyon_3_3hafta</name>
-      </field>
-      <field>
-        <name>HL1</name>
-      </field>
-      <field>
-        <name>HL2</name>
-      </field>
-      <field>
-        <name>subject2</name>
-      </field>
-      <field>
-        <name>Subject</name>
-      </field>
-      <field>
-        <name>Güncel</name>
-      </field>
-      <field>
-        <name>Bir Önceki</name>
-      </field>
-      <field>
-        <name>SMPT</name>
-      </field>
-      <field>
-        <name>Port</name>
-      </field>
-      <field>
-        <name>Sender Name</name>
-      </field>
-      <field>
-        <name>Destination</name>
-      </field>
-      <field>
-        <name>Sender Adress</name>
-      </field>
-      <field>
-        <name>3HaftaAlarm</name>
-      </field>
-      <field>
-        <name>İki Önceki</name>
-      </field>
-      <field>
         <name>HaftaAlarmold</name>
         <rename>HaftaAlarmİlk</rename>
       </field>
+      <field>
+        <name>Tarih</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>Tarih</name>
+        <rename>Tarihilk</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -7936,8 +8185,8 @@ var requestXml = request.toXMLString();
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2752</xloc>
-      <yloc>768</yloc>
+      <xloc>2768</xloc>
+      <yloc>752</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -7945,7 +8194,7 @@ var requestXml = request.toXMLString();
     <name>Select values 6 3 3 2</name>
     <type>SelectValues</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -7957,7 +8206,28 @@ var requestXml = request.toXMLString();
         <name>HaftaAlarmold</name>
         <rename>HaftaAlarmİkinci</rename>
       </field>
+      <field>
+        <name>Tarih</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>Tarih</name>
+        <rename>Tarihİkinci</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -8023,6 +8293,9 @@ var requestXml = request.toXMLString();
       </field>
       <field>
         <name>Deneme</name>
+      </field>
+      <field>
+        <name>Tarih</name>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -8430,7 +8703,7 @@ var requestXml = request.toXMLString();
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <sql>SELECT top(1) AlarmsizGunSayisi, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8466,7 +8739,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <sql>SELECT MeanAlarm, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8502,7 +8775,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <sql>SELECT VardiyaAlarm, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8538,7 +8811,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <sql>SELECT HaftaAlarm, Tarih
 FROM "BACOS_MASTER"
 WHERE Tag='${tag}'
@@ -8574,7 +8847,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <schema/>
     <table>BACOS_MASTER</table>
     <commit>1000</commit>
@@ -8642,7 +8915,7 @@ Order By Tarih DESC
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection/>
+    <connection>pentaho_test_db</connection>
     <schema/>
     <table>BACOS_MASTER</table>
     <commit>1000</commit>
@@ -9100,6 +9373,38 @@ Order By Tarih DESC
     <GUI>
       <xloc>3424</xloc>
       <yloc>832</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge join 10</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <join_type>FULL OUTER</join_type>
+    <step1>Merge join 9</step1>
+    <step2>Sample rows 2 3</step2>
+    <keys_1>
+    </keys_1>
+    <keys_2>
+    </keys_2>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>2832</xloc>
+      <yloc>944</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

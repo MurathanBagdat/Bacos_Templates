@@ -1,0 +1,2915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>PIC_Master</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
+    <trans_type>Normal</trans_type>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection/>
+      <table/>
+      <field/>
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file/>
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2020/04/24 17:31:54.149</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2020/04/24 17:31:54.149</modified_date>
+    <key_for_session_key/>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>Data grid</from>
+      <to>Transformation executor</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>Data grid</name>
+    <type>DataGrid</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>tag1</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>tag2</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>tag3</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>tag4</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>ekipman</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>TuningBacos</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>PvOscillationSigmaBacos</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>MvSigmaBacos</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>PvSigmaBacos</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>ErrorYüzdeArtis</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>MvYüzdeArtis</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>emailler</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <data>
+      <line>
+        <item>63PIC001.PV</item>
+        <item>63PIC001.SP</item>
+        <item>63PIC001.OP</item>
+        <item>63SARJ</item>
+        <item>63C1 BASINC</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC006.PV</item>
+        <item>63PIC006.SP</item>
+        <item>63PIC006.OP</item>
+        <item>63SARJ</item>
+        <item>63C6 SEPARATOR DRAMI BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC007.PV</item>
+        <item>63PIC007.SP</item>
+        <item>63PIC007.OP</item>
+        <item>63SARJ</item>
+        <item>63C6`DAN ATM`E VENT</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC013.PV</item>
+        <item>63PIC013.SP</item>
+        <item>63PIC013.OP</item>
+        <item>63SARJ</item>
+        <item>63C9 STR. TEPE DRAMI BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC015.PV</item>
+        <item>63PIC015.SP</item>
+        <item>63PIC015.OP</item>
+        <item>63SARJ</item>
+        <item>63F1 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC020.PV</item>
+        <item>63PIC020.SP</item>
+        <item>63PIC020.OP</item>
+        <item>63SARJ</item>
+        <item>63F1 F.GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC030.PV</item>
+        <item>63PIC030.SP</item>
+        <item>63PIC030.OP</item>
+        <item>63SARJ</item>
+        <item>63F2 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC034.PV</item>
+        <item>63PIC034.SV</item>
+        <item>63PIC034.OP</item>
+        <item>63SARJ</item>
+        <item>63F2 F  GAS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1005.PV</item>
+        <item>63PIC1005.SP</item>
+        <item>63PIC1005.OP</item>
+        <item>63SARJ</item>
+        <item>63C104 SEPARATOR</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1009.PV</item>
+        <item>63PIC1009.SP</item>
+        <item>63PIC1009.OP</item>
+        <item>63SARJ</item>
+        <item>63C105 63K101 ABC 1.KAD.EMIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1014.PV</item>
+        <item>63PIC1014.SP</item>
+        <item>63PIC1014.OP</item>
+        <item>63SARJ</item>
+        <item>C106 PLAT.NET GAZ 1.TEMAS DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1015.PV</item>
+        <item>63PIC1015.SP</item>
+        <item>63PIC1015.OP</item>
+        <item>63SARJ</item>
+        <item>C107 PLAT.NET GAZ 2.TEMAS DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1017.PV</item>
+        <item>63PIC1017.SP</item>
+        <item>63PIC1017.OP</item>
+        <item>63SARJ</item>
+        <item>NET GAZ 63C108 AB CIKIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1021.PV</item>
+        <item>63PIC1021.SP</item>
+        <item>63PIC1021.OP</item>
+        <item>63SARJ</item>
+        <item>63C109 DEBUT.TEPE</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1026.PV</item>
+        <item>63PIC1026.SP</item>
+        <item>63PIC1026.OP</item>
+        <item>63SARJ</item>
+        <item>63F100 F.GAZ GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1026A.PV</item>
+        <item>63PIC1026A.SP</item>
+        <item>63PIC1026A.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1026B.PV</item>
+        <item>63PIC1026B.SP</item>
+        <item>63PIC1026B.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1029.PV</item>
+        <item>63PIC1029.SP</item>
+        <item>63PIC1029.OP</item>
+        <item>63SARJ</item>
+        <item>63F100 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1029A.PV</item>
+        <item>63PIC1029A.SP</item>
+        <item>63PIC1029A.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1029B.PV</item>
+        <item>63PIC1029B.SP</item>
+        <item>63PIC1029B.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1035.PV</item>
+        <item>63PIC1035.SP</item>
+        <item>63PIC1035.OP</item>
+        <item>63SARJ</item>
+        <item>63F101 F.GAZ GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1035B.PV</item>
+        <item>63PIC1035B.SP</item>
+        <item>63PIC1035B.OP</item>
+        <item>63SARJ</item>
+        <item>63F101 F.GAZ DUSUK BASINC KORUMA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1038.PV</item>
+        <item>63PIC1038.SP</item>
+        <item>63PIC1038.OP</item>
+        <item>63SARJ</item>
+        <item>63F101 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1038B.PV</item>
+        <item>63PIC1038B.SP</item>
+        <item>63PIC1038B.OP</item>
+        <item>63SARJ</item>
+        <item>63F101 F.OIL DUSUK BASINC KORUMA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1044.PV</item>
+        <item>63PIC1044.SP</item>
+        <item>63PIC1044.OP</item>
+        <item>63SARJ</item>
+        <item>63F102 F.GAZ GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1044B.PV</item>
+        <item>63PIC1044B.SP</item>
+        <item>63PIC1044B.OP</item>
+        <item>63SARJ</item>
+        <item>63F102 F.GAZ DUSUK BASINC KORUMA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1047.PV</item>
+        <item>63PIC1047.SP</item>
+        <item>63PIC1047.OP</item>
+        <item>63SARJ</item>
+        <item>63F102 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1047B.PV</item>
+        <item>63PIC1047B.SP</item>
+        <item>63PIC1047B.OP</item>
+        <item>63SARJ</item>
+        <item>63F102 F.OIL DUSUK BASINC KORUMA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1053.PV</item>
+        <item>63PIC1053.SP</item>
+        <item>63PIC1053.OP</item>
+        <item>63SARJ</item>
+        <item>63F103 F.GAZ GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1053B.PV</item>
+        <item>63PIC1053B.SP</item>
+        <item>63PIC1053B.OP</item>
+        <item>63SARJ</item>
+        <item>63F103 F.GAZ DUSUK BASINC KORUMA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1057.PV</item>
+        <item>63PIC1057.SP</item>
+        <item>63PIC1057.OP</item>
+        <item>63SARJ</item>
+        <item>63F103 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1057B.PV</item>
+        <item>63PIC1057B.SP</item>
+        <item>63PIC1057B.OP</item>
+        <item>63SARJ</item>
+        <item>63F103 F.OIL DUSUK BASINC KORUMA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1067.PV</item>
+        <item>63PIC1067.SP</item>
+        <item>63PIC1067.OP</item>
+        <item>63SARJ</item>
+        <item>63F104 F.GAZ GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1072.PV</item>
+        <item>63PIC1072.SP</item>
+        <item>63PIC1072.OP</item>
+        <item>63SARJ</item>
+        <item>63F104 F.OIL GELIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC1084E.PV</item>
+        <item>63PIC1084E.SV</item>
+        <item>63PIC1084E.OP</item>
+        <item>63SARJ</item>
+        <item>63G-102A BASINC KONT.</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2003.PV</item>
+        <item>63PIC2003.SP</item>
+        <item>63PIC2003.OP</item>
+        <item>63SARJ</item>
+        <item>63C203 SARJ DRAMI BASINC</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2010.PV</item>
+        <item>63PIC2010.SP</item>
+        <item>63PIC2010.OP</item>
+        <item>63SARJ</item>
+        <item>63C204 BASINC</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2011.PV</item>
+        <item>63PIC2011.SP</item>
+        <item>63PIC2011.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2012.PV</item>
+        <item>63PIC2012.SP</item>
+        <item>63PIC2012.OP</item>
+        <item>63SARJ</item>
+        <item>63C205 OFF-GAZ 63C212'E</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2015.PV</item>
+        <item>63PIC2015.SP</item>
+        <item>63PIC2015.OP</item>
+        <item>63SARJ</item>
+        <item>C207 REGENERATION ATIK GAZ ATM.E</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2020.PV</item>
+        <item>63PIC2020.SP</item>
+        <item>63PIC2020.OP</item>
+        <item>63SARJ</item>
+        <item>63K203 CIKIS BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2022.PV</item>
+        <item>63PIC2022.SP</item>
+        <item>63PIC2022.OP</item>
+        <item>63SARJ</item>
+        <item>C222 M/U GAZ KOMPRESOR EMIS DRAM</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2028.PV</item>
+        <item>63PIC2028.SP</item>
+        <item>63PIC2028.OP</item>
+        <item>63SARJ</item>
+        <item>C211 STRIPPER TEPE DRAMI BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2029.PV</item>
+        <item>63PIC2029.SP</item>
+        <item>63PIC2029.OP</item>
+        <item>63SARJ</item>
+        <item>C212 OFFGAZ AMIN ABS.TEPE BASINC</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2033.PV</item>
+        <item>63PIC2033.SP</item>
+        <item>63PIC2033.OP</item>
+        <item>63SARJ</item>
+        <item>63C213 DEBUTANIZER TEPE</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2035.PV</item>
+        <item>63PIC2035.SP</item>
+        <item>63PIC2035.OP</item>
+        <item>63SARJ</item>
+        <item>63C217'DEN LPG TANKA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2041.PV</item>
+        <item>63PIC2041.SP</item>
+        <item>63PIC2041.OP</item>
+        <item>63SARJ</item>
+        <item>63C218 NAF. SPL. TEPE 63E221'E</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2047.PV</item>
+        <item>63PIC2047.SP</item>
+        <item>63PIC2047.OP</item>
+        <item>63SARJ</item>
+        <item>63F201 F.GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2076.PV</item>
+        <item>63PIC2076.SV</item>
+        <item>63PIC2076.MV</item>
+        <item>63SARJ</item>
+        <item>63G243 Emiş Basıncı</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2078.PV</item>
+        <item>63PIC2078.SP</item>
+        <item>63PIC2078.OP</item>
+        <item>63SARJ</item>
+        <item>63C208 VAKUM DRIER </item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2100.PV</item>
+        <item>63PIC2100.SP</item>
+        <item>63PIC2100.OP</item>
+        <item>63SARJ</item>
+        <item>O2 STRIPPER TEPE BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2101.PV</item>
+        <item>63PIC2101.SP</item>
+        <item>63PIC2101.OP</item>
+        <item>63SARJ</item>
+        <item>O2 STRIPPER BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2840A.PV</item>
+        <item>63PIC2840A.SP</item>
+        <item>63PIC2840A.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC2840B.PV</item>
+        <item>63PIC2840B.SP</item>
+        <item>63PIC2840B.OP</item>
+        <item>63SARJ</item>
+        <item/>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC3004.PV</item>
+        <item>63PIC3004.SP</item>
+        <item>63PIC3004.OP</item>
+        <item>63SARJ</item>
+        <item>63C301 RICH AMIN FLASH DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC3009.PV</item>
+        <item>63PIC3009.SP</item>
+        <item>63PIC3009.OP</item>
+        <item>63SARJ</item>
+        <item>63C307 AMIN SUMP DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>63PIC3021.PV</item>
+        <item>63PIC3021.SP</item>
+        <item>63PIC3021.OP</item>
+        <item>63SARJ</item>
+        <item>C303 AMIN REJENERATOR TEPE DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC0351A.DACA.PV</item>
+        <item>36PIC0351A.PIDA.SP</item>
+        <item>36PIC0351A.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>36K-6A EMIS DAMPERI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC0351B.DACA.PV</item>
+        <item>36PIC0351B.PIDA.SP</item>
+        <item>36PIC0351B.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>36K-6B EMIS DAMPERI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC1103.PIDA.PV</item>
+        <item>36PIC1103.PIDA.SP</item>
+        <item>36PIC1103.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-121 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC1104.PIDA.PV</item>
+        <item>36PIC1104.PIDA.SP</item>
+        <item>36PIC1104.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-122 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC1113.PIDA.PV</item>
+        <item>36PIC1113.PIDA.SP</item>
+        <item>36PIC1113.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>PLATFORMER NETGAZ F.GAZA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC12.PIDA.PV</item>
+        <item>36PIC12.PIDA.SP</item>
+        <item>36PIC12.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-1 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC24.PIDA.PV</item>
+        <item>36PIC24.PIDA.SP</item>
+        <item>36PIC24.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-4 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC24A.PIDA.PV</item>
+        <item>36PIC24A.PIDA.SP</item>
+        <item>36PIC24A.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-4 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC280.PIDA.PV</item>
+        <item>36PIC280.PIDA.SP</item>
+        <item>36PIC280.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-104 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC281.PIDA.PV</item>
+        <item>36PIC281.PIDA.SP</item>
+        <item>36PIC281.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-103 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC282.PIDA.PV</item>
+        <item>36PIC282.PIDA.SP</item>
+        <item>36PIC282.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-102 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC283.PIDA.PV</item>
+        <item>36PIC283.PIDA.SP</item>
+        <item>36PIC283.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-101 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC310.PIDA.PV</item>
+        <item>36PIC310.PIDA.SP</item>
+        <item>36PIC310.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-107 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC310F.PIDA.PV</item>
+        <item>36PIC310F.PIDA.SP</item>
+        <item>36PIC310F.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>36-E108 CIKIS KONTROL</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC339.PIDA.PV</item>
+        <item>36PIC339.PIDA.SP</item>
+        <item>36PIC339.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-105 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC347.PIDA.PV</item>
+        <item>36PIC347.PIDA.SP</item>
+        <item>36PIC347.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>DEBUT TEPE  BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC396.PIDA.PV</item>
+        <item>36PIC396.PIDA.SP</item>
+        <item>36PIC396.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-105 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC410.PIDA.PV</item>
+        <item>36PIC410.PIDA.SP</item>
+        <item>36PIC410.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-104 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC411.PIDA.PV</item>
+        <item>36PIC411.PIDA.SP</item>
+        <item>36PIC411.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-103 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC412.PIDA.PV</item>
+        <item>36PIC412.PIDA.SP</item>
+        <item>36PIC412.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-102 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC413.PIDA.PV</item>
+        <item>36PIC413.PIDA.SP</item>
+        <item>36PIC413.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-101 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC46.PIDA.PV</item>
+        <item>36PIC46.PIDA.SP</item>
+        <item>36PIC46.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-2 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC517.PIDA.PV</item>
+        <item>36PIC517.PIDA.SP</item>
+        <item>36PIC517.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>SCRUBBERA REJEN VENTGAZI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC54.PIDA.PV</item>
+        <item>36PIC54.PIDA.SP</item>
+        <item>36PIC54.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-7 TEPE BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC601.PIDA.PV</item>
+        <item>36PIC601.PIDA.SP</item>
+        <item>36PIC601.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>DESULF M/UGAZ FUEL GAZA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC602.PIDA.PV</item>
+        <item>36PIC602.PIDA.SP</item>
+        <item>36PIC602.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>DESULF M/U GAZ PLT-3E</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC622.PIDA.PV</item>
+        <item>36PIC622.PIDA.SP</item>
+        <item>36PIC622.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>RECYCLE GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC624.PIDA.PV</item>
+        <item>36PIC624.PIDA.SP</item>
+        <item>36PIC624.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-205  BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC627.PIDA.PV</item>
+        <item>36PIC627.PIDA.SP</item>
+        <item>36PIC627.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-207  BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC636.PIDA.PV</item>
+        <item>36PIC636.PIDA.SP</item>
+        <item>36PIC636.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-201 TEPE BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC651.PIDA.PV</item>
+        <item>36PIC651.PIDA.SP</item>
+        <item>36PIC651.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-210 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC666.PIDA.PV</item>
+        <item>36PIC666.PIDA.SP</item>
+        <item>36PIC666.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>M/U HIDROJEN BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC669.PIDA.PV</item>
+        <item>36PIC669.PIDA.SP</item>
+        <item>36PIC669.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>YIKAMA SUYU ESAN CIKIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC678.PIDA.PV</item>
+        <item>36PIC678.PIDA.SP</item>
+        <item>36PIC678.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>C-212 BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC698.PIDA.PV</item>
+        <item>36PIC698.PIDA.SP</item>
+        <item>36PIC698.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-201 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC704.PIDA.PV</item>
+        <item>36PIC704.PIDA.SP</item>
+        <item>36PIC704.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-201 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC72.PIDA.PV</item>
+        <item>36PIC72.PIDA.SP</item>
+        <item>36PIC72.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-1 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC727.PIDA.PV</item>
+        <item>36PIC727.PIDA.SP</item>
+        <item>36PIC727.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-202 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC733.PIDA.PV</item>
+        <item>36PIC733.PIDA.SP</item>
+        <item>36PIC733.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-202 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC752.PIDA.PV</item>
+        <item>36PIC752.PIDA.SP</item>
+        <item>36PIC752.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>HYDROCOM PID</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>36PIC81.PIDA.PV</item>
+        <item>36PIC81.PIDA.SP</item>
+        <item>36PIC81.PIDA.OP</item>
+        <item>36SARJ</item>
+        <item>F-2 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC135.PIDA.PV</item>
+        <item>25PIC135.PIDA.SP</item>
+        <item>25PIC135.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25C-13 DRAM BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC142.PIDA.PV</item>
+        <item>25PIC142.PIDA.SP</item>
+        <item>25PIC142.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>DEBUT. TEPE BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC146.PIDA.PV</item>
+        <item>25PIC146.PIDA.SP</item>
+        <item>25PIC146.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25C-14 DRAM BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC160.PIDA.PV</item>
+        <item>25PIC160.PIDA.SP</item>
+        <item>25PIC160.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25C-15 DRAM BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC190.PIDA.PV</item>
+        <item>25PIC190.PIDA.SP</item>
+        <item>25PIC190.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25F-1 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC196.PIDA.PV</item>
+        <item>25PIC196.PIDA.SP</item>
+        <item>25PIC196.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25F-1 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC204.PIDA.PV</item>
+        <item>25PIC204.PIDA.SP</item>
+        <item>25PIC204.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25F-2 F.GAZ BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC211.PIDA.PV</item>
+        <item>25PIC211.PIDA.SP</item>
+        <item>25PIC211.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25F-2 F.OIL BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC25.PIDA.PV</item>
+        <item>25PIC25.PIDA.SP</item>
+        <item>25PIC25.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>DESALTER CIKIC BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC66.PIDA.PV</item>
+        <item>25PIC66.PIDA.SP</item>
+        <item>25PIC66.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>ATM.DIP PLT-2/5'E</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC83.PIDA.PV</item>
+        <item>25PIC83.PIDA.SP</item>
+        <item>25PIC83.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25C-12 DRAM BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>25PIC92.PIDA.PV</item>
+        <item>25PIC92.PIDA.SP</item>
+        <item>25PIC92.PIDA.OP</item>
+        <item>25SARJ</item>
+        <item>25C-2 TEPE BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC004.PV</item>
+        <item>47PIC004.SV</item>
+        <item>47PIC004.MV</item>
+        <item>47SARJ</item>
+        <item>C-3 BASINC  KONTROLU</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC017.PV</item>
+        <item>47PIC017.SV</item>
+        <item>47PIC017.MV</item>
+        <item>47SARJ</item>
+        <item>C-7 BASINC  KONTROLU</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC026.PV</item>
+        <item>47PIC026.SV</item>
+        <item>47PIC026.MV</item>
+        <item>47SARJ</item>
+        <item>C-8 BASINC  KONTROLU</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC027.PV</item>
+        <item>47PIC027.SV</item>
+        <item>47PIC027.MV</item>
+        <item>47SARJ</item>
+        <item>C-9 DRAMI   BASINC KONT</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC028.PV</item>
+        <item>47PIC028.SV</item>
+        <item>47PIC028.MV</item>
+        <item>47SARJ</item>
+        <item>C-10 DRAM   BASINC KONTR</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC029.PV</item>
+        <item>47PIC029.SV</item>
+        <item>47PIC029.MV</item>
+        <item>47SARJ</item>
+        <item>C-11 DRAM   BASINC KONTR</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC065.PV</item>
+        <item>47PIC065.SV</item>
+        <item>47PIC065.MV</item>
+        <item>47SARJ</item>
+        <item>C-13 E DOGALGAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1501.PV</item>
+        <item>47PIC1501.SV</item>
+        <item>47PIC1501.MV</item>
+        <item>47SARJ</item>
+        <item>STRIP.TEPE  DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1503.PV</item>
+        <item>47PIC1503.SV</item>
+        <item>47PIC1503.MV</item>
+        <item>47SARJ</item>
+        <item>FRAK.TEPE   BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1504.PV</item>
+        <item>47PIC1504.SV</item>
+        <item>47PIC1504.MV</item>
+        <item>47SARJ</item>
+        <item>DEBUT.TEPE  BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1505.PV</item>
+        <item>47PIC1505.SV</item>
+        <item>47PIC1505.MV</item>
+        <item>47SARJ</item>
+        <item>NAF.SPLT.TEPE</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1507.PV</item>
+        <item>47PIC1507.SV</item>
+        <item>47PIC1507.MV</item>
+        <item>47SARJ</item>
+        <item>DEETHAINEZERTEPE</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1560.PV</item>
+        <item>47PIC1560.SV</item>
+        <item>47PIC1560.MV</item>
+        <item>47SARJ</item>
+        <item>ünitelere deetanizer LPG</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1712.PV</item>
+        <item>47PIC1712.SV</item>
+        <item>47PIC1712.MV</item>
+        <item>47SARJ</item>
+        <item>DEETANIZER SISTEMI BY=PASS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1713.PV</item>
+        <item>47PIC1713.SV</item>
+        <item>47PIC1713.MV</item>
+        <item>47SARJ</item>
+        <item>NAF.SPLIT. TEPE GAZI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1714.PV</item>
+        <item>47PIC1714.SV</item>
+        <item>47PIC1714.MV</item>
+        <item>47SARJ</item>
+        <item>ATIK ISI KAZANI BASINCI DUSURULMUS KBS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1715.PV</item>
+        <item>47PIC1715.SV</item>
+        <item>47PIC1715.MV</item>
+        <item>47SARJ</item>
+        <item>ATIK ISI KAZANI 50# STEAM BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1752.PV</item>
+        <item>47PIC1752.SV</item>
+        <item>47PIC1752.MV</item>
+        <item>47SARJ</item>
+        <item> Preflash Tepe Basınç</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC1760.PV</item>
+        <item>47PIC1760.SV</item>
+        <item>47PIC1760.MV</item>
+        <item>47SARJ</item>
+        <item>47E-132 STIM CIKIS BASINCI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2005.PV</item>
+        <item>47PIC2005.SV</item>
+        <item>47PIC2005.MV</item>
+        <item>47SARJ</item>
+        <item>C211 NAFTA   SARJ DRAMI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2007.PV</item>
+        <item>47PIC2007.SV</item>
+        <item>47PIC2007.MV</item>
+        <item>47SARJ</item>
+        <item>C205 E DG</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2008.PV</item>
+        <item>47PIC2008.SV</item>
+        <item>47PIC2008.MV</item>
+        <item>47SARJ</item>
+        <item>F202 DEN    C211 E NAFTA</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2012.PV</item>
+        <item>47PIC2012.SV</item>
+        <item>47PIC2012.MV</item>
+        <item>47SARJ</item>
+        <item>DENSITY ANALSET DEGERI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2013.PV</item>
+        <item>47PIC2013.SV</item>
+        <item>47PIC2013.MV</item>
+        <item>47SARJ</item>
+        <item>RINGE STEAM 550#</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2021.PV</item>
+        <item>47PIC2021.SV</item>
+        <item>47PIC2021.MV</item>
+        <item>47SARJ</item>
+        <item>PSA GIRIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2023.PV</item>
+        <item>47PIC2023.SV</item>
+        <item>47PIC2023.MV</item>
+        <item>47SARJ</item>
+        <item>PSA CIKIS H2</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2024.PV</item>
+        <item>47PIC2024.SV</item>
+        <item>47PIC2024.MV</item>
+        <item>47SARJ</item>
+        <item>PSA CIKIS   TAIL GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2025.PV</item>
+        <item>47PIC2025.SV</item>
+        <item>47PIC2025.MV</item>
+        <item>47SARJ</item>
+        <item>C209 KONDAN.STRIPPERI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2027.PV</item>
+        <item>47PIC2027.SV</item>
+        <item>47PIC2027.MV</item>
+        <item>47SARJ</item>
+        <item>C214 YAKIT  DRAMI GRS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2028.PV</item>
+        <item>47PIC2028.SV</item>
+        <item>47PIC2028.MV</item>
+        <item>47SARJ</item>
+        <item>DOGU FIRINI FUEL GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2030.PV</item>
+        <item>47PIC2030.SV</item>
+        <item>47PIC2030.MV</item>
+        <item>47SARJ</item>
+        <item>DOGU FIRINI NAFTA YAKITI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2032.PV</item>
+        <item>47PIC2032.SV</item>
+        <item>47PIC2032.MV</item>
+        <item>47SARJ</item>
+        <item>DOGU FIRIN  SERVIS HAVA.</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2033A.PV</item>
+        <item>47PIC2033A.SV</item>
+        <item>47PIC2033A.MV</item>
+        <item>47SARJ</item>
+        <item>DOGU FIRIN  DRAFT</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2033B.PV</item>
+        <item>47PIC2033B.SV</item>
+        <item>47PIC2033B.MV</item>
+        <item>47SARJ</item>
+        <item>BATI FIRIN  DRAFT</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2035.PV</item>
+        <item>47PIC2035.SV</item>
+        <item>47PIC2035.MV</item>
+        <item>47SARJ</item>
+        <item>F201 PILOT  GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2037.PV</item>
+        <item>47PIC2037.SV</item>
+        <item>47PIC2037.MV</item>
+        <item>47SARJ</item>
+        <item>BATI FIRINI SERVIS HAVA.</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2038.PV</item>
+        <item>47PIC2038.SV</item>
+        <item>47PIC2038.MV</item>
+        <item>47SARJ</item>
+        <item>BATI FIRINI FUEL GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2040.PV</item>
+        <item>47PIC2040.SV</item>
+        <item>47PIC2040.MV</item>
+        <item>47SARJ</item>
+        <item>BATI FIRINI NAFTA YAKITI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2042.PV</item>
+        <item>47PIC2042.SV</item>
+        <item>47PIC2042.MV</item>
+        <item>47SARJ</item>
+        <item>F202 YE     PILOT GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2045.PV</item>
+        <item>47PIC2045.SV</item>
+        <item>47PIC2045.MV</item>
+        <item>47SARJ</item>
+        <item>F202 F.GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2047.PV</item>
+        <item>47PIC2047.SV</item>
+        <item>47PIC2047.MV</item>
+        <item>47SARJ</item>
+        <item>F202 YE IMIS</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC2048.PV</item>
+        <item>47PIC2048.SV</item>
+        <item>47PIC2048.MV</item>
+        <item>47SARJ</item>
+        <item>F202  NAFTA YAKITI</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC3205.PV</item>
+        <item>47PIC3205.SV</item>
+        <item>47PIC3205.MV</item>
+        <item>47SARJ</item>
+        <item>C303 F.GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC3210.PV</item>
+        <item>47PIC3210.SV</item>
+        <item>47PIC3210.MV</item>
+        <item>47SARJ</item>
+        <item>TEMIZ GAZ   URETIM</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC3215.PV</item>
+        <item>47PIC3215.SV</item>
+        <item>47PIC3215.MV</item>
+        <item>47SARJ</item>
+        <item>TEMIZ GAZ  FLARE</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC3216.PV</item>
+        <item>47PIC3216.SV</item>
+        <item>47PIC3216.MV</item>
+        <item>47SARJ</item>
+        <item>UC YE F.GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+      <line>
+        <item>47PIC3522.PV</item>
+        <item>47PIC3522.SV</item>
+        <item>47PIC3522.MV</item>
+        <item>47SARJ</item>
+        <item>C306 CIKIS  ASIT GAZ</item>
+        <item>0.01</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1.02</item>
+        <item>1.08</item>
+        <item>murathan.bagdat@tupras.com.tr, berkay.tuzun@tupras.com.tr, zeynep.liman@tupras.com.tr, gorkem.bulut@tupras.com.tr, oguz.uzun@tupras.com.tr</item>
+      </line>
+    </data>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>373</xloc>
+      <yloc>151</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Transformation executor</name>
+    <type>TransExecutor</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <specification_method>filename</specification_method>
+    <trans_object_id/>
+    <trans_name/>
+    <filename>${Internal.Entry.Current.Directory}/BACOS_LIC_DATA_GRID.ktr</filename>
+    <directory_path/>
+    <group_size>1</group_size>
+    <group_field/>
+    <group_time/>
+    <parameters>
+      <variablemapping>
+        <variable>tag1</variable>
+        <field>tag1</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>tag2</variable>
+        <field>tag2</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>tag3</variable>
+        <field>tag3</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>TuningBacos</variable>
+        <field>TuningBacos</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>PvOscillationSigmaBacos</variable>
+        <field>PvOscillationSigmaBacos</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>MvSigmaBacos</variable>
+        <field>MvSigmaBacos</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>PvSigmaBacos</variable>
+        <field>PvSigmaBacos</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>ErrorYüzdeArtis</variable>
+        <field>ErrorYüzdeArtis</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>MvYüzdeArtis</variable>
+        <field>MvYüzdeArtis</field>
+        <input/>
+      </variablemapping>
+      <variablemapping>
+        <variable>tag4</variable>
+        <field>tag4</field>
+        <input/>
+      </variablemapping>
+      <inherit_all_vars>Y</inherit_all_vars>
+    </parameters>
+    <execution_result_target_step/>
+    <execution_time_field>ExecutionTime</execution_time_field>
+    <execution_result_field>ExecutionResult</execution_result_field>
+    <execution_errors_field>ExecutionNrErrors</execution_errors_field>
+    <execution_lines_read_field>ExecutionLinesRead</execution_lines_read_field>
+    <execution_lines_written_field>ExecutionLinesWritten</execution_lines_written_field>
+    <execution_lines_input_field>ExecutionLinesInput</execution_lines_input_field>
+    <execution_lines_output_field>ExecutionLinesOutput</execution_lines_output_field>
+    <execution_lines_rejected_field>ExecutionLinesRejected</execution_lines_rejected_field>
+    <execution_lines_updated_field>ExecutionLinesUpdated</execution_lines_updated_field>
+    <execution_lines_deleted_field>ExecutionLinesDeleted</execution_lines_deleted_field>
+    <execution_files_retrieved_field>ExecutionFilesRetrieved</execution_files_retrieved_field>
+    <execution_exit_status_field>ExecutionExitStatus</execution_exit_status_field>
+    <execution_log_text_field>ExecutionLogText</execution_log_text_field>
+    <execution_log_channelid_field>ExecutionLogChannelId</execution_log_channelid_field>
+    <result_rows_target_step/>
+    <result_files_target_step/>
+    <result_files_file_name_field>FileName</result_files_file_name_field>
+    <executors_output_step/>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>517</xloc>
+      <yloc>151</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+  <attributes/>
+</transformation>
